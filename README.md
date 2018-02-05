@@ -3,11 +3,6 @@ This is a student project for ITP2 course of Innopolis University, made by the s
 
 Library Management System is meant to ease the work of librarians and users alike. It stores data about the books and users, helping manage the affairs of the library. New content is to come soon. Stay put, folks!
 
-# Requirements
-You will need to have installed on your local machine
-
-Python 3.6:
-https://www.python.org/ftp/python/3.6.4/python-3.6.4.exe 
-
-peewee ORM:
-http://peewee.readthedocs.io/en/latest/peewee/installation.html
+# Aknowledgements
+ILMS uses Java 1.9 and SQLite database.
+ILMS is not purposed for commercial use.
