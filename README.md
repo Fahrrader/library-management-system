@@ -1,7 +1,7 @@
 # Innopolis Library Management System
 This is a student project for ITP2 course of Innopolis University, made by the students of the group BS1-3, including Farhad Khakimov, Igor Loskutnikov, and Christos Brentas.
 
-Library Management System is meant to ease the work of librarians and users alike. It stores data about the books and users, helping to manage affairs of the library.
+Library Management System is meant to ease the work of librarians and users alike. It stores data about the books and users, helping manage the affairs of the library. New content is to come soon. Stay put, folks!
 
 # Requirements
 You will need to have installed on your local machine
