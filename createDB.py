@@ -3,11 +3,11 @@ from peewee import *
 db = SqliteDatabase('library.db')
 
 
-class Patron(Model):
+class User(Model):
     name = CharField()
     address = TextField()
     phone = CharField()
-    affiliation = CharField(choices=[[0, "faculty"], [1, "student"]])
+    affiliation = CharField(choices=[[0, "librarian"], [1, "faculty"], [2, "student"]])
     _id = IntegerField(primary_key=True)
 
     class Meta:
@@ -16,6 +16,7 @@ class Patron(Model):
 
 class Document(Model):
     kind = CharField(choices=[[0, 'book'], [1, 'article'], [2, 'av']])
+    reference = BooleanField()
     author = TextField()
     title = TextField()
     journal = TextField()
@@ -26,7 +27,7 @@ class Document(Model):
     keywords = TextField()
     _id = IntegerField(primary_key=True)
     price = IntegerField(constraints=[Check('price>0')])
-    taken_by = ForeignKeyField(Patron, backref="documents")
+    taken_by = ForeignKeyField(User, backref="documents")
     taken_at = DateField()
 
     class Meta:
@@ -34,7 +35,7 @@ class Document(Model):
 
 
 def create_tables():
-    db.create_tables([Patron, Document])
+    db.create_tables([User, Document])
 
 
 db.connect()
