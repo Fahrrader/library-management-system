@@ -1,7 +1,7 @@
-public interface Patron extends User {
+public interface Patron {
     int find (String name);
 
-    void return_book (String name);
+    void returnBook (String name);
 
-    void take_the_book (int id);
+    void takeBook (int id);
 }

@@ -3,11 +3,11 @@ public class Student implements Patron {
         return 0;
     }
 
-    public void return_book(String name) {
+    public void returnBook(String name) {
 
     }
 
-    public void take_the_book(int id) {
+    public void takeBook(int id) {
 
     }
 }
