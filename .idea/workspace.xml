@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33ff5c02-f970-4787-8bf0-4c99afe42a48" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2206c7d5-dec2-46d1-a8ff-4b0cc4a40332.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/__MACOSX/qwerty/._.DS_Store" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/__MACOSX/qwerty/src/._.DS_Store" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/library.iml" afterPath="$PROJECT_DIR$/library.iml" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Conn.class" afterPath="$PROJECT_DIR$/out/production/library/Conn.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Faculty.class" afterPath="$PROJECT_DIR$/out/production/library/Faculty.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Instructor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Main.class" afterPath="$PROJECT_DIR$/out/production/library/Main.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Professor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Student.class" afterPath="$PROJECT_DIR$/out/production/library/Student.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/TA.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/AV_material.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Book.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Conn.java" afterPath="$PROJECT_DIR$/src/Conn.java" />
-      <change beforePath="$PROJECT_DIR$/src/Doc.java" afterPath="$PROJECT_DIR$/src/Doc.java" />
-      <change beforePath="$PROJECT_DIR$/src/Faculty.java" afterPath="$PROJECT_DIR$/src/Faculty.java" />
-      <change beforePath="$PROJECT_DIR$/src/Instructor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Journal_Article.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Librarian.java" afterPath="$PROJECT_DIR$/src/Librarian.java" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/Patron.java" afterPath="$PROJECT_DIR$/src/Patron.java" />
-      <change beforePath="$PROJECT_DIR$/src/Professor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" afterPath="$PROJECT_DIR$/src/Student.java" />
-      <change beforePath="$PROJECT_DIR$/src/TA.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/User.java" afterPath="$PROJECT_DIR$/src/User.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +25,23 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="library.db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="library.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="library.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileEditorManager">
@@ -59,17 +49,17 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+            <state relative-caret-position="136">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Conn.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Conn.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Conn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2074">
+            <state relative-caret-position="2584">
               <caret line="152" column="39" lean-forward="true" selection-start-line="152" selection-start-column="39" selection-end-line="152" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -103,7 +93,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Librarian.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Librarian.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Librarian.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="316">
@@ -202,7 +192,6 @@
         <option value="$PROJECT_DIR$/src/AV_material.java" />
         <option value="$PROJECT_DIR$/src/Instructor.java" />
         <option value="$PROJECT_DIR$/src/Journal_Article.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/library.iml" />
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
         <option value="$PROJECT_DIR$/src/Doc.java" />
@@ -212,6 +201,7 @@
         <option value="$PROJECT_DIR$/src/User.java" />
         <option value="$PROJECT_DIR$/src/Librarian.java" />
         <option value="$PROJECT_DIR$/src/Conn.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -322,6 +312,11 @@
       <envs />
       <method />
     </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.library" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -349,7 +344,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37074000" />
+    <option name="totallyTimeSpent" value="37391000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -767,50 +762,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/642937a9-fe0d-4fe6-acd2-a6071351c040/console.sql" />
     <entry file="das://table:/7b15a605/53465329-f7f2-4005-b586-a7eb71e97519/main.users" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/53465329-f7f2-4005-b586-a7eb71e97519/console.sql" />
-    <entry file="uml://JAVA/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID />
-          <OriginalElement />
-          <nodes>
-            <node x="" y="">com</node>
-            <node x="" y="">netscape</node>
-            <node x="" y="">User</node>
-            <node x="" y="">Journal_Article</node>
-            <node x="" y="">AV_material</node>
-            <node x="" y="">toolbarButtonGraphics</node>
-            <node x="" y="">sun</node>
-            <node x="" y="">groovyjarjarasm</node>
-            <node x="" y="">java</node>
-            <node x="" y="">javax</node>
-            <node x="" y="">Book</node>
-            <node x="" y="">Doc</node>
-            <node x="" y="">javafx</node>
-            <node x="" y="">Librarian</node>
-            <node x="" y="">Faculty</node>
-            <node x="" y="">images</node>
-            <node x="" y="">oracle</node>
-            <node x="" y="">org</node>
-            <node x="" y="">Student</node>
-            <node x="" y="">Conn</node>
-            <node x="" y="">META-INF</node>
-            <node x="" y="">jdk</node>
-            <node x="" y="">groovy</node>
-            <node x="" y="">groovyjarjarcommonscli</node>
-            <node x="" y="">groovyjarjarantlr</node>
-            <node x="" y="">Main</node>
-            <node x="" y="">Patron</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.7027818448023426" x="585.0" y="232.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/7b15a605/53465329-f7f2-4005-b586-a7eb71e97519/main.docs" />
     <entry file="file://$PROJECT_DIR$/qwerty.iml" />
     <entry file="file://$PROJECT_DIR$/library.iml">
@@ -848,26 +799,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Faculty.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Librarian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -909,7 +844,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Conn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2074">
+        <state relative-caret-position="2584">
           <caret line="152" column="39" lean-forward="true" selection-start-line="152" selection-start-column="39" selection-end-line="152" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -929,6 +864,63 @@
             <marker date="1518121524685" expanded="true" signature="4801:4820" ph="SELECT * FRO... users" />
             <marker date="1518121524685" expanded="true" signature="5481:5499" ph="SELECT * FRO... docs" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">com</node>
+            <node x="" y="">Faculty</node>
+            <node x="" y="">images</node>
+            <node x="" y="">netscape</node>
+            <node x="" y="">oracle</node>
+            <node x="" y="">User</node>
+            <node x="" y="">org</node>
+            <node x="" y="">toolbarButtonGraphics</node>
+            <node x="" y="">Student</node>
+            <node x="" y="">Conn</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">jdk</node>
+            <node x="" y="">groovyjarjarasm</node>
+            <node x="" y="">java</node>
+            <node x="" y="">groovy</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">Doc</node>
+            <node x="" y="">groovyjarjarcommonscli</node>
+            <node x="" y="">javafx</node>
+            <node x="" y="">Librarian</node>
+            <node x="" y="">groovyjarjarantlr</node>
+            <node x="" y="">Main</node>
+            <node x="" y="">Patron</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.1175043327556327" x="296.5" y="175.2341811414392" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Librarian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -6,6 +6,7 @@ public class Main {
         Librarian lab = new Librarian();
         Conn.Conn();
         Conn.CreateDB();
+
         /*lab.add_doc("DSA","book", "Adil Khan", 2016);
         lab.add_doc("Оловянный солдатик", "book", "Ne pomny", 1900);
         lab.add_faculty("Farhad", "Khakimov");
