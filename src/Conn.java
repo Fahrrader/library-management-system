@@ -23,40 +23,60 @@ public class Conn {
         return conn;
     }
 
-    // --------Connecting to the database--------
+    // -------- ACCESSING DATABASE ---------
     public static void Conn() throws ClassNotFoundException, SQLException {
         conn = null;
         Class.forName("org.sqlite.JDBC");
         conn = DriverManager.getConnection("jdbc:sqlite:library.db");
 
-        System.out.println("Connected to database!");
+        System.out.println("Database accessed!");
     }
 
-    // --------Creating the database, if doesn't exist--------
+    // -------- Creating tables --------
     public static void CreateDB() throws ClassNotFoundException, SQLException {
         statmt = conn.createStatement();
-        statmt.execute("CREATE TABLE if not exists 'users' ('id' INTEGER PRIMARY KEY AUTOINCREMENT, 'name' text, 'surname' text, 'lvl' INT, 'holding' text);");
-        statmt.execute("CREATE TABLE if not exists 'docs' ('id' INTEGER PRIMARY KEY AUTOINCREMENT, 'name' text, 'type' text, 'author' text, 'year' INT, 'holder' text, 'date_of_taking' INT, 'date_of_returning' INT);");
-
-        System.out.println("Tables are already created.");
+        statmt.execute("CREATE TABLE IF NOT EXISTS 'users' (" +
+                "'id' INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                "'name' TEXT NOT NULL, " +
+                "'access' INT NOT NULL, " +
+                "'phone' TEXT NOT NULL, " +
+                "'holding' TEXT);");
+        statmt.execute("CREATE TABLE IF NOT EXISTS 'docs' (" +
+                "'id' INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                "'type' INT NOT NULL, " +
+                "'reference' BOOL DEFAULT FALSE, " +
+                "'name' TEXT NOT NULL, " +
+                "'author' TEXT NOT NULL, " +
+                "'publisher' TEXT, " +
+                "'journal' TEXT, " +
+                "'edition' INT, " +
+                "'editor' TEXT, " +
+                "'released' DATE, " +
+                "'price' INT NOT NULL, " +
+                "'located' TEXT NOT NULL, " +
+                "'tags' TEXT, " +
+                "'taken_by' INT, " +
+                "'taken_when' DATE, " +
+                "'due_when' DATE," +
+                "CHECK (price>=0));");
     }
 
-    // --------Adding Users and Documents--------
-    public static void addUser(String name_user, String surname_user, int lvl) throws SQLException {
-        statmt.executeUpdate("INSERT INTO users (name, surname, lvl, holding) " +
-                "VALUES ('" + name_user + "','" + surname_user + "','" + lvl + "','" + "none" + "')");
+    // -------- Adding users and documents --------
+    public static void addUser(String name, int access, int phone) throws SQLException {
+        statmt.executeUpdate("INSERT INTO users (name, access, phone) " +
+                "VALUES ('" + name + "','" + access + "','" + phone + "')");
 
-        System.out.println("User is added!");
+        System.out.println("User added!");
     }
-
+    //type, reference, name, author, publisher, ournal, edition, editor, released, price, located, tags, taken_by, taken_when, due_when
     public static void addDoc(String name_doc, String type_doc, String author_doc, int year_doc) throws SQLException {
-        statmt.executeUpdate("INSERT INTO docs (name, type, author, year, holder, date_of_taking, date_of_returning) " +
+        statmt.executeUpdate("INSERT INTO docs (type, referenename, author, year, holder, date_of_taking, date_of_returning) " +
                 "VALUES ('" + name_doc + "','" + type_doc + "','" + author_doc + "','" + year_doc + "','" + "none" + "','" + 0 + "','" + 0 + "')");
 
-        System.out.println("Doc has added!");
+        System.out.println("Document added!");
     }
 
-    //---------Removing Users and Documents--------
+    //-------- Deleting users and documents --------
     public void removeDoc_by_id(int id) {
         String sql = "DELETE FROM docs WHERE id = ?";
 
@@ -102,15 +122,13 @@ public class Conn {
         }
     }
 
-    public void removeUser_by_name(String name, String surname) {
-        String sql = "DELETE FROM users WHERE name = ? AND surname = ?";
+    public void removeUser_by_name(String name) {
+        String sql = "DELETE FROM users WHERE name = ?";
 
         try (Connection conn = this.connect();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
 
             pstmt.setString(1, name);
-
-            pstmt.setString(2, surname);
 
             pstmt.executeUpdate();
 
@@ -120,64 +138,59 @@ public class Conn {
     }
 
 
-    // --------Users table output--------
+    // -------- Printing users and documents table ---------
     public static void ReadDBUsers() throws ClassNotFoundException, SQLException {
         resSetUser = statmt.executeQuery("SELECT * FROM users");
 
-
         while (resSetUser.next()) {
             int id = resSetUser.getInt("id");
+            int lvl = resSetUser.getInt("access");
             String name = resSetUser.getString("name");
-            String surname = resSetUser.getString("surname");
-            int lvl = resSetUser.getInt("lvl");
             String holding = resSetUser.getString("holding");
-            System.out.println("ID = " + id);
-            System.out.println("name = " + name);
-            System.out.println("surname = " + surname);
-            System.out.println("lvl = " + lvl);
-            System.out.println("holding docs = " + holding);
+            System.out.print("ID" + id);
+            System.out.print(" LVL" + lvl);
+            System.out.print(" " + name);
+            System.out.println(" holds IDs " + holding);
             System.out.println();
         }
 
-
-        System.out.println("Table is printed.");
+        System.out.println("Users printed.");
     }
 
-    // --------Docs table output--------
     public static void ReadDBDocs() throws ClassNotFoundException, SQLException {
-
         resSetDoc = statmt.executeQuery("SELECT * FROM docs");
 
         while (resSetDoc.next()) {
             int id = resSetDoc.getInt("id");
             String name = resSetDoc.getString("name");
+            String author = resSetDoc.getString("author");
             String type = resSetDoc.getString("type");
-            int year = resSetDoc.getInt("year");
-            String holder = resSetDoc.getString("holder");
-            String date_of_taking = resSetDoc.getString("date_of_taking");
-            String date_of_returning = resSetDoc.getString("date_of_returning");
-            System.out.println("ID = " + id);
-            System.out.println("name = " + name);
-            System.out.println("type = " + type);
-            System.out.println("year = " + year);
-            System.out.println("holder = " + holder);
-            System.out.println("date of last taking = " + date_of_taking);
-            System.out.println("date of last returning = " + date_of_returning);
+            String holder = resSetDoc.getString("taken_by");
+            String date = resSetDoc.getString("taken_when");
+            String due = resSetDoc.getString("due_when");
+            System.out.print("ID" + id);
+            System.out.print(" TYPE-" + type);
+            System.out.print(" " + name);
+            System.out.println(" by " + author + ".");
+            if (resSetDoc.getString("taken_by") != null && resSetDoc.getString("taken_by").isEmpty()) {
+                System.out.print("Currently is held by " + holder);
+                System.out.println(", due " + date + ".");
+            }
             System.out.println();
         }
 
-        System.out.println("Table is printed.");
+        System.out.println("Documents printed.");
     }
 
 
-    // --------Closing the Database--------
+    // -------- Terminating access --------
     public static void CloseDB() throws ClassNotFoundException, SQLException {
         conn.close();
-        statmt.close();
+        //statmt.close();
         resSetUser.close();
         resSetDoc.close();
 
-        System.out.println("Connections are closed.");
+        System.out.println("Terminated.");
     }
 
 }

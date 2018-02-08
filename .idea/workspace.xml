@@ -2,34 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33ff5c02-f970-4787-8bf0-4c99afe42a48" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2dd7e72c-15c8-4f55-aabb-9ce5730946b4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3d46cd90-2976-4c94-9a50-ffab1354551f.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5e07e89d-75fd-4f63-8e13-34a62dd610db.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/720c4eeb-33ee-4eab-91a5-70ddbf8abda2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c918253a-bf0b-4c93-b304-66fa0de2157a.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/df09e7a2-ae72-4358-a044-5b31b1008857.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e539c22a-1607-452f-9be7-5cc21d6fe357.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e8fd42b6-30a1-4391-84e9-4d2e9f15595b.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f9be8dfa-71dc-4d2a-9471-5cf84337aea5.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2206c7d5-dec2-46d1-a8ff-4b0cc4a40332.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/library-management-system.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/qwerty/AV_material.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/qwerty/Book.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/qwerty/Conn.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/qwerty/Doc.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/qwerty/Faculty.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/qwerty/Instructor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/qwerty/Journal_Article.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/qwerty/Librarian.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/qwerty/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/qwerty/Patron.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/qwerty/Professor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/qwerty/Student.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/qwerty/TA.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/qwerty/User.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/qwerty.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/qwerty/._.DS_Store" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/qwerty/src/._.DS_Store" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/library.iml" afterPath="$PROJECT_DIR$/library.iml" />
+      <change beforePath="$PROJECT_DIR$/out/production/library/Conn.class" afterPath="$PROJECT_DIR$/out/production/library/Conn.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/library/Faculty.class" afterPath="$PROJECT_DIR$/out/production/library/Faculty.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/library/Instructor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/library/Main.class" afterPath="$PROJECT_DIR$/out/production/library/Main.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/library/Professor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/library/Student.class" afterPath="$PROJECT_DIR$/out/production/library/Student.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/library/TA.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/AV_material.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Book.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Conn.java" afterPath="$PROJECT_DIR$/src/Conn.java" />
+      <change beforePath="$PROJECT_DIR$/src/Doc.java" afterPath="$PROJECT_DIR$/src/Doc.java" />
+      <change beforePath="$PROJECT_DIR$/src/Faculty.java" afterPath="$PROJECT_DIR$/src/Faculty.java" />
+      <change beforePath="$PROJECT_DIR$/src/Instructor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Journal_Article.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Librarian.java" afterPath="$PROJECT_DIR$/src/Librarian.java" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/Patron.java" afterPath="$PROJECT_DIR$/src/Patron.java" />
+      <change beforePath="$PROJECT_DIR$/src/Professor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Student.java" afterPath="$PROJECT_DIR$/src/Student.java" />
+      <change beforePath="$PROJECT_DIR$/src/TA.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" afterPath="$PROJECT_DIR$/src/User.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,95 +51,54 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="library.db" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="library.db" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="library.db" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="library.db" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
-        <item name="docs: table" type="ffe0bd85:SqliteImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="library.db" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
-        <item name="users: table" type="ffe0bd85:SqliteImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="library.db" type="feb32156:DbDataSourceImpl" />
-        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Doc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Doc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Conn.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Conn.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Conn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="25" column="49" lean-forward="false" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+            <state relative-caret-position="2074">
+              <caret line="152" column="39" lean-forward="true" selection-start-line="152" selection-start-column="39" selection-end-line="152" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#addDoc#0;class#Conn#0" expanded="false" />
+                <marker date="1518121524685" expanded="true" signature="1160:1424" ph="CREATE TABLE... if" />
+                <marker date="1518121524685" expanded="true" signature="1160:1425" ph="CREATE TABLE... if" />
+                <marker date="1518121524685" expanded="true" signature="1453:2193" ph="CREATE TABLE... if" />
+                <marker date="1518121524685" expanded="true" signature="1453:2194" ph="CREATE TABLE... if" />
+                <marker date="1518121524685" expanded="true" signature="2376:2461" ph="INSERT INTO users... " />
+                <marker date="1518121524685" expanded="true" signature="2376:2477" ph="INSERT INTO users... " />
+                <marker date="1518121524685" expanded="true" signature="2376:2478" ph="INSERT INTO users... " />
+                <marker date="1518121524685" expanded="true" signature="2376:2493" ph="INSERT INTO users... " />
+                <marker date="1518121524685" expanded="true" signature="2832:3075" ph="INSERT INTO docs... " />
+                <marker date="1518121524685" expanded="true" signature="3251:3280" ph="DELETE FROM docs... " />
+                <marker date="1518121524685" expanded="true" signature="3642:3673" ph="DELETE FROM docs... " />
+                <marker date="1518121524685" expanded="true" signature="3987:4017" ph="DELETE FROM users... " />
+                <marker date="1518121524685" expanded="true" signature="4333:4365" ph="DELETE FROM users... " />
+                <marker date="1518121524685" expanded="true" signature="4801:4820" ph="SELECT * FRO... users" />
+                <marker date="1518121524685" expanded="true" signature="5481:5499" ph="SELECT * FRO... docs" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Faculty.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Faculty.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -147,20 +106,8 @@
       <file leaf-file-name="Librarian.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Librarian.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-              <folding>
-                <element signature="method#modify_doc#0;class#Librarian#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TA.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="316">
+              <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -169,28 +116,41 @@
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#74#75#0" expanded="true" />
+                <element signature="e#98#99#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Doc.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Doc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Professor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Professor.java">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Instructor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Instructor.java">
+      <file leaf-file-name="Patron.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Patron.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="38" lean-forward="true" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -205,11 +165,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>class</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -241,20 +196,22 @@
         <option value="$PROJECT_DIR$/src/Docs/Book.java" />
         <option value="$PROJECT_DIR$/src/Users/TA.java" />
         <option value="$PROJECT_DIR$/src/Users/Librarian.java" />
-        <option value="$PROJECT_DIR$/src/Doc.java" />
-        <option value="$PROJECT_DIR$/src/Patron.java" />
         <option value="$PROJECT_DIR$/src/Professor.java" />
         <option value="$PROJECT_DIR$/src/TA.java" />
-        <option value="$PROJECT_DIR$/src/User.java" />
         <option value="$PROJECT_DIR$/src/Book.java" />
         <option value="$PROJECT_DIR$/src/AV_material.java" />
-        <option value="$PROJECT_DIR$/src/Faculty.java" />
-        <option value="$PROJECT_DIR$/src/Journal_Article.java" />
-        <option value="$PROJECT_DIR$/src/Librarian.java" />
         <option value="$PROJECT_DIR$/src/Instructor.java" />
-        <option value="$PROJECT_DIR$/src/Conn.java" />
-        <option value="$PROJECT_DIR$/src/Student.java" />
+        <option value="$PROJECT_DIR$/src/Journal_Article.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/library.iml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/src/Doc.java" />
+        <option value="$PROJECT_DIR$/src/Student.java" />
+        <option value="$PROJECT_DIR$/src/Faculty.java" />
+        <option value="$PROJECT_DIR$/src/Patron.java" />
+        <option value="$PROJECT_DIR$/src/User.java" />
+        <option value="$PROJECT_DIR$/src/Librarian.java" />
+        <option value="$PROJECT_DIR$/src/Conn.java" />
       </list>
     </option>
   </component>
@@ -283,8 +240,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,23 +249,28 @@
               <item name="library-management-system" type="b2602c69:ProjectViewProjectNode" />
               <item name="library-management-system" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="library-management-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library-management-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="last_opened_file_path" value="D:/Archive/Data/Semester2/class3a" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -329,7 +291,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+    <configuration name="library" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <option name="VM_PARAMETERS" value="" />
@@ -344,18 +306,6 @@
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="qwerty" />
-      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -372,11 +322,6 @@
       <envs />
       <method />
     </configuration>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -392,12 +337,19 @@
       <option name="presentableId" value="Default" />
       <updated>1517773817719</updated>
       <workItem from="1517773824071" duration="26109000" />
-      <workItem from="1517845407889" duration="270000" />
+      <workItem from="1517953229586" duration="874000" />
+      <workItem from="1517954133720" duration="1889000" />
+      <workItem from="1518110301378" duration="1337000" />
+      <workItem from="1518114477257" duration="204000" />
+      <workItem from="1518114688529" duration="53000" />
+      <workItem from="1518114748710" duration="65000" />
+      <workItem from="1518114819734" duration="6000" />
+      <workItem from="1518114839612" duration="2515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26379000" />
+    <option name="totallyTimeSpent" value="37074000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -410,23 +362,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2266244" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17274168" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23108666" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22979398" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2614897" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18740849" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1500732" sideWeight="0.49373883" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19253294" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14568081" sideWeight="0.49373883" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -436,11 +388,14 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23108666" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15024233" sideWeight="0.50626117" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,71 +406,226 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Instructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Patron.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Conn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addDoc#0;class#Conn#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/82c8a028/c918253a-bf0b-4c93-b304-66fa0de2157a/main.sqlite_master" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c918253a-bf0b-4c93-b304-66fa0de2157a/console.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e8fd42b6-30a1-4391-84e9-4d2e9f15595b/console.sql" />
-    <entry file="das://table:/82c8a028/c918253a-bf0b-4c93-b304-66fa0de2157a/main.sqlite_master" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e539c22a-1607-452f-9be7-5cc21d6fe357/console.sql" />
     <entry file="das://table:/82c8a028/e539c22a-1607-452f-9be7-5cc21d6fe357/main.users" />
     <entry file="das://table:/82c8a028/df09e7a2-ae72-4358-a044-5b31b1008857/main.sqlite_master" />
     <entry file="das://table:/82c8a028/df09e7a2-ae72-4358-a044-5b31b1008857/main.sqlite_sequence" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/df09e7a2-ae72-4358-a044-5b31b1008857/console.sql" />
     <entry file="das://table:/82c8a028/df09e7a2-ae72-4358-a044-5b31b1008857/main.users" />
-    <entry file="uml://MODULES/mdl-qwerty" />
-    <entry file="uml://JavaScript-modules-diagram//Users/user/IdeaProjects/qwerty" />
-    <entry file="uml://JAVA/Books" />
-    <entry file="uml://JAVA/Student" />
-    <entry file="uml://JAVA/AV_materials" />
-    <entry file="uml://JAVA/AV_material" />
-    <entry file="uml://JAVA/Librarian" />
-    <entry file="uml://JAVA/Docs" />
+    <entry file="uml://MODULES/mdl-qwerty">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID />
+          <OriginalElement>mdl-qwerty</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-qwerty</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="65.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//Users/user/IdeaProjects/qwerty">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="401.0" y="185.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Books">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID />
+          <OriginalElement>Books</OriginalElement>
+          <nodes>
+            <node x="" y="">Docs</node>
+            <node x="" y="">Books</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="44.0" y="54.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Student">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID />
+          <OriginalElement>Student</OriginalElement>
+          <nodes>
+            <node x="" y="">Users</node>
+            <node x="" y="">Student</node>
+            <node x="" y="">Patron</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="288.0" y="258.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/AV_materials">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID />
+          <OriginalElement>AV_materials</OriginalElement>
+          <nodes>
+            <node x="117.0" y="158.0">Faculty</node>
+            <node x="107.0" y="311.0">Journal_Article</node>
+            <node x="121.25" y="0.0">User</node>
+            <node x="170.25" y="79.0">Librarian</node>
+            <node x="273.0" y="311.0">AV_material</node>
+            <node x="140.5" y="232.0">Doc</node>
+            <node x="0.0" y="385.0">Conn</node>
+            <node x="0.0" y="311.0">Book</node>
+            <node x="0.0" y="158.0">Student</node>
+            <node x="126.0" y="385.0">Main</node>
+            <node x="61.25" y="79.0">Patron</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Patron" target="User">
+              <point x="0.0" y="-14.5" />
+              <point x="105.75" y="54.0" />
+              <point x="142.25" y="54.0" />
+              <point x="-21.0" y="14.5" />
+            </edge>
+            <edge source="Journal_Article" target="Doc">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="Book" target="Doc">
+              <point x="0.0" y="-14.5" />
+              <point x="43.5" y="286.0" />
+              <point x="153.66666666666666" y="286.0" />
+              <point x="-26.333333333333343" y="14.5" />
+            </edge>
+            <edge source="Faculty" target="Patron">
+              <point x="0.0" y="-14.5" />
+              <point x="163.0" y="133.0" />
+              <point x="128.0" y="133.0" />
+              <point x="22.25" y="14.5" />
+            </edge>
+            <edge source="Librarian" target="User">
+              <point x="0.0" y="-14.5" />
+              <point x="220.75" y="54.0" />
+              <point x="184.25" y="54.0" />
+              <point x="21.0" y="14.5" />
+            </edge>
+            <edge source="AV_material" target="Doc">
+              <point x="0.0" y="-14.5" />
+              <point x="336.5" y="286.0" />
+              <point x="206.33333333333331" y="286.0" />
+              <point x="26.333333333333314" y="14.5" />
+            </edge>
+            <edge source="Student" target="Patron">
+              <point x="0.0" y="-14.5" />
+              <point x="48.5" y="133.0" />
+              <point x="83.5" y="133.0" />
+              <point x="-22.25" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="28.0" y="213.0" />
+          <SelectedNodes>
+            <node>Faculty</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Librarian">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID />
+          <OriginalElement>Librarian</OriginalElement>
+          <nodes>
+            <node x="-83.71428571428572" y="-98.57142857142858">Users.User</node>
+            <node x="-115.71428571428572" y="46.428571428571416">Users.Librarian</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Users.Librarian" target="Users.User">
+              <point x="0.0" y="-102.5" />
+              <point x="0.0" y="47.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-122.0" y="60.0" />
+          <SelectedNodes>
+            <node>Users.Librarian</node>
+            <node>Users.User</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Docs">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID />
+          <OriginalElement>Docs</OriginalElement>
+          <nodes>
+            <node x="0.0" y="167.0">Docs.Journal_Article</node>
+            <node x="159.0" y="167.0">Docs.Book</node>
+            <node x="77.0" y="0.0">Docs.Doc</node>
+            <node x="259.0" y="167.0">Docs.AV_material</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Docs.Journal_Article" target="Docs.Doc">
+              <point x="0.0" y="-14.5" />
+              <point x="69.5" y="142.0" />
+              <point x="117.66666666666667" y="142.0" />
+              <point x="-81.33333333333333" y="58.5" />
+            </edge>
+            <edge source="Docs.AV_material" target="Docs.Doc">
+              <point x="0.0" y="-14.5" />
+              <point x="319.0" y="142.0" />
+              <point x="280.3333333333333" y="142.0" />
+              <point x="81.33333333333331" y="58.5" />
+            </edge>
+            <edge source="Docs.Book" target="Docs.Doc">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="58.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-76.0" y="-43.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2dd7e72c-15c8-4f55-aabb-9ce5730946b4/console.sql" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/720c4eeb-33ee-4eab-91a5-70ddbf8abda2/console.sql" />
     <entry file="file://$PROJECT_DIR$/src/Users.db" />
@@ -525,10 +635,93 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5e07e89d-75fd-4f63-8e13-34a62dd610db/console.sql" />
     <entry file="das://table:/82c8a028/5e07e89d-75fd-4f63-8e13-34a62dd610db/main.sqlite_master" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2206c7d5-dec2-46d1-a8ff-4b0cc4a40332/console.sql" />
-    <entry file="uml://JAVA/Users" />
-    <entry file="uml://JavaScript-modules-diagram//Users/user/IdeaProjects/qwerty/src/Docs;/Users/user/IdeaProjects/qwerty/src/Users;" />
-    <entry file="das://table:/82c8a028/2206c7d5-dec2-46d1-a8ff-4b0cc4a40332/main.docs" />
-    <entry file="das://table:/82c8a028/2206c7d5-dec2-46d1-a8ff-4b0cc4a40332/main.users" />
+    <entry file="uml://JAVA/Users">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID />
+          <OriginalElement>Users</OriginalElement>
+          <nodes>
+            <node x="152.07142857142856" y="41.21428571428572">Users.Patron</node>
+            <node x="-241.42857142857144" y="353.2142857142857">Users.TA</node>
+            <node x="261.07142857142856" y="-46.78571428571428">Users.Librarian</node>
+            <node x="238.57142857142856" y="353.2142857142857">Users.Instructor</node>
+            <node x="189.82142857142856" y="-191.78571428571428">Users.User</node>
+            <node x="62.571428571428555" y="241.21428571428572">Users.Faculty</node>
+            <node x="174.57142857142856" y="208.21428571428572">Users.Student</node>
+            <node x="-1.4285714285714448" y="353.2142857142857">Users.Professor</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Users.Patron" target="Users.User">
+              <point x="0.0" y="-14.5" />
+              <point x="196.57142857142856" y="-71.78571428571428" />
+              <point x="244.82142857142856" y="-71.78571428571428" />
+              <point x="-55.0" y="47.5" />
+            </edge>
+            <edge source="Users.TA" target="Users.Faculty">
+              <point x="0.0" y="-47.5" />
+              <point x="-131.42857142857144" y="328.2142857142857" />
+              <point x="77.90476190476187" y="328.2142857142857" />
+              <point x="-30.666666666666686" y="14.5" />
+            </edge>
+            <edge source="Users.Professor" target="Users.Faculty">
+              <point x="0.0" y="-47.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="Users.Student" target="Users.Patron">
+              <point x="0.0" y="-47.5" />
+              <point x="284.57142857142856" y="183.21428571428572" />
+              <point x="218.82142857142856" y="183.21428571428572" />
+              <point x="22.25" y="14.5" />
+            </edge>
+            <edge source="Users.Instructor" target="Users.Faculty">
+              <point x="0.0" y="-47.5" />
+              <point x="348.57142857142856" y="328.2142857142857" />
+              <point x="139.23809523809524" y="328.2142857142857" />
+              <point x="30.666666666666686" y="14.5" />
+            </edge>
+            <edge source="Users.Faculty" target="Users.Patron">
+              <point x="0.0" y="-14.5" />
+              <point x="108.57142857142856" y="183.21428571428572" />
+              <point x="174.32142857142856" y="183.21428571428572" />
+              <point x="-22.25" y="14.5" />
+            </edge>
+            <edge source="Users.Librarian" target="Users.User">
+              <point x="0.0" y="-102.5" />
+              <point x="403.07142857142856" y="-71.78571428571428" />
+              <point x="354.82142857142856" y="-71.78571428571428" />
+              <point x="55.0" y="47.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8" x="-13.0" y="116.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//Users/user/IdeaProjects/qwerty/src/Docs;/Users/user/IdeaProjects/qwerty/src/Users;">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Docs;/Users/user/IdeaProjects/qwerty/src/Users;</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="413.0" y="254.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Professor.java" />
+    <entry file="file://$PROJECT_DIR$/src/TA.java" />
+    <entry file="file://$PROJECT_DIR$/src/Instructor.java" />
     <entry file="file://$PROJECT_DIR$/src/Journal_Article.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -536,21 +729,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Faculty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="das://table:/82c8a028/2206c7d5-dec2-46d1-a8ff-4b0cc4a40332/main.docs" />
+    <entry file="das://table:/82c8a028/2206c7d5-dec2-46d1-a8ff-4b0cc4a40332/main.users" />
+    <entry file="uml://JAVA/AV_material">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID />
+          <OriginalElement>AV_material</OriginalElement>
+          <nodes>
+            <node x="" y="">Faculty</node>
+            <node x="" y="">Professor</node>
+            <node x="" y="">Journal_Article</node>
+            <node x="" y="">User</node>
+            <node x="" y="">AV_material</node>
+            <node x="" y="">Instructor</node>
+            <node x="" y="">Student</node>
+            <node x="" y="">Conn</node>
+            <node x="" y="">TA</node>
+            <node x="" y="">Book</node>
+            <node x="" y="">Doc</node>
+            <node x="" y="">Librarian</node>
+            <node x="" y="">Main</node>
+            <node x="" y="">Patron</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8538011695906432" x="237.0" y="247.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Patron.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+    <entry file="das://table:/7b15a605/2206c7d5-dec2-46d1-a8ff-4b0cc4a40332/main.users" />
+    <entry file="das://table:/7b15a605/2206c7d5-dec2-46d1-a8ff-4b0cc4a40332/main.docs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/642937a9-fe0d-4fe6-acd2-a6071351c040/console.sql" />
+    <entry file="das://table:/7b15a605/53465329-f7f2-4005-b586-a7eb71e97519/main.users" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/53465329-f7f2-4005-b586-a7eb71e97519/console.sql" />
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID />
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">com</node>
+            <node x="" y="">netscape</node>
+            <node x="" y="">User</node>
+            <node x="" y="">Journal_Article</node>
+            <node x="" y="">AV_material</node>
+            <node x="" y="">toolbarButtonGraphics</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">groovyjarjarasm</node>
+            <node x="" y="">java</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">Book</node>
+            <node x="" y="">Doc</node>
+            <node x="" y="">javafx</node>
+            <node x="" y="">Librarian</node>
+            <node x="" y="">Faculty</node>
+            <node x="" y="">images</node>
+            <node x="" y="">oracle</node>
+            <node x="" y="">org</node>
+            <node x="" y="">Student</node>
+            <node x="" y="">Conn</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">jdk</node>
+            <node x="" y="">groovy</node>
+            <node x="" y="">groovyjarjarcommonscli</node>
+            <node x="" y="">groovyjarjarantlr</node>
+            <node x="" y="">Main</node>
+            <node x="" y="">Patron</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7027818448023426" x="585.0" y="232.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AV_material.java">
+    <entry file="das://table:/7b15a605/53465329-f7f2-4005-b586-a7eb71e97519/main.docs" />
+    <entry file="file://$PROJECT_DIR$/qwerty.iml" />
+    <entry file="file://$PROJECT_DIR$/library.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="51" lean-forward="false" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -564,88 +841,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/User.java">
+    <entry file="file://$PROJECT_DIR$/src/AV_material.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Doc.java">
+    <entry file="file://$PROJECT_DIR$/src/Faculty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Professor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Instructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Conn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="49" lean-forward="false" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addDoc#0;class#Conn#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Librarian.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        <state relative-caret-position="316">
+          <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#modify_doc#0;class#Librarian#0" expanded="false" />
+            <element signature="e#74#75#0" expanded="true" />
+            <element signature="e#98#99#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Doc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Patron.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="38" lean-forward="true" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Conn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2074">
+          <caret line="152" column="39" lean-forward="true" selection-start-line="152" selection-start-column="39" selection-end-line="152" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1518121524685" expanded="true" signature="1160:1424" ph="CREATE TABLE... if" />
+            <marker date="1518121524685" expanded="true" signature="1160:1425" ph="CREATE TABLE... if" />
+            <marker date="1518121524685" expanded="true" signature="1453:2193" ph="CREATE TABLE... if" />
+            <marker date="1518121524685" expanded="true" signature="1453:2194" ph="CREATE TABLE... if" />
+            <marker date="1518121524685" expanded="true" signature="2376:2461" ph="INSERT INTO users... " />
+            <marker date="1518121524685" expanded="true" signature="2376:2477" ph="INSERT INTO users... " />
+            <marker date="1518121524685" expanded="true" signature="2376:2478" ph="INSERT INTO users... " />
+            <marker date="1518121524685" expanded="true" signature="2376:2493" ph="INSERT INTO users... " />
+            <marker date="1518121524685" expanded="true" signature="2832:3075" ph="INSERT INTO docs... " />
+            <marker date="1518121524685" expanded="true" signature="3251:3280" ph="DELETE FROM docs... " />
+            <marker date="1518121524685" expanded="true" signature="3642:3673" ph="DELETE FROM docs... " />
+            <marker date="1518121524685" expanded="true" signature="3987:4017" ph="DELETE FROM users... " />
+            <marker date="1518121524685" expanded="true" signature="4333:4365" ph="DELETE FROM users... " />
+            <marker date="1518121524685" expanded="true" signature="4801:4820" ph="SELECT * FRO... users" />
+            <marker date="1518121524685" expanded="true" signature="5481:5499" ph="SELECT * FRO... docs" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -666,7 +949,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Detection</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -714,6 +997,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>sqlite-jdbc-3.21.0.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
