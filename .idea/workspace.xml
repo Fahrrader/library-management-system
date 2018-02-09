@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33ff5c02-f970-4787-8bf0-4c99afe42a48" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/Conn.java" afterPath="$PROJECT_DIR$/src/Conn.java" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
       <change beforePath="$PROJECT_DIR$/src/build/Conn.class" afterPath="$PROJECT_DIR$/src/build/Conn.class" />
+      <change beforePath="$PROJECT_DIR$/src/build/Main.class" afterPath="$PROJECT_DIR$/src/build/Main.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,8 +53,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,53 +65,50 @@
       <file leaf-file-name="Conn.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Conn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="165" column="83" lean-forward="false" selection-start-line="165" selection-start-column="83" selection-end-line="165" selection-end-column="83" />
+            <state relative-caret-position="275">
+              <caret line="149" column="35" lean-forward="false" selection-start-line="149" selection-start-column="35" selection-end-line="149" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1518154914631" expanded="true" signature="1000:1271" ph="CREATE TABLE... IF" />
-                <marker date="1518154914631" expanded="true" signature="1000:1275" ph="CREATE TABLE... if" />
-                <marker date="1518154914631" expanded="true" signature="1000:1276" ph="CREATE TABLE... if" />
-                <marker date="1518154914631" expanded="true" signature="1303:2216" ph="CREATE TABLE... IF" />
-                <marker date="1518154914631" expanded="true" signature="1303:2217" ph="CREATE TABLE... IF" />
-                <marker date="1518154914631" expanded="true" signature="1303:2218" ph="CREATE TABLE... if" />
-                <marker date="1518154914631" expanded="true" signature="2395:2480" ph="INSERT INTO users... " />
-                <marker date="1518154914631" expanded="true" signature="2395:2496" ph="INSERT INTO users... " />
-                <marker date="1518154914631" expanded="true" signature="2395:2497" ph="INSERT INTO users... " />
-                <marker date="1518154914631" expanded="true" signature="2395:2512" ph="INSERT INTO users... " />
-                <marker date="1518154914631" expanded="true" signature="2993:3402" ph="INSERT INTO docs... " />
-                <marker date="1518154914631" expanded="true" signature="3581:3593" ph="DELETE FROM missingValue... " />
-                <marker date="1518154914631" expanded="true" signature="3581:3617" ph="DELETE FROM docs... " />
-                <marker date="1518154914631" expanded="true" signature="4056:4085" ph="SELECT * FRO... missingValue" />
-                <marker date="1518154914631" expanded="true" signature="4056:4102" ph="SELECT * FRO... missingValue" />
-                <marker date="1518154914631" expanded="true" signature="4056:4103" ph="SELECT * FRO... tab" />
-                <marker date="1518154914631" expanded="true" signature="4703:4733" ph="SELECT * FRO... users" />
-                <marker date="1518154914631" expanded="true" signature="4703:4734" ph="SELECT * FRO... users" />
-                <marker date="1518154914631" expanded="true" signature="5063:5093" ph="SELECT * FRO... docs" />
-                <marker date="1518154914631" expanded="true" signature="5499:5532" ph="SELECT id FR... docs" />
-                <marker date="1518154914631" expanded="true" signature="5965:5975" ph="SELECT * FRO... " />
-                <marker date="1518154914631" expanded="true" signature="5974:5975" ph="SELECT id FR... docs" />
-                <marker date="1518154914631" expanded="true" signature="6023:6054" ph="SELECT * FRO... users" />
-                <marker date="1518154914631" expanded="true" signature="6292:6318" ph="UPDATE users... " />
-                <marker date="1518154914631" expanded="true" signature="6292:6319" ph="UPDATE users... " />
-                <marker date="1518154914631" expanded="true" signature="6292:6345" ph="UPDATE users... " />
-                <marker date="1518154914631" expanded="true" signature="6292:6346" ph="UPDATE users... " />
-                <marker date="1518154914631" expanded="true" signature="6402:6432" ph="SELECT * FRO... docs" />
-                <marker date="1518154914631" expanded="true" signature="6591:6617" ph="UPDATE docs... " />
-                <marker date="1518154914631" expanded="true" signature="6591:6618" ph="UPDATE docs... " />
-                <marker date="1518154914631" expanded="true" signature="6591:6641" ph="UPDATE docs... " />
-                <marker date="1518154914631" expanded="true" signature="6591:6642" ph="UPDATE docs... " />
-                <marker date="1518154914631" expanded="true" signature="6805:6834" ph="UPDATE docs... " />
-                <marker date="1518154914631" expanded="true" signature="6805:6869" ph="UPDATE docs... " />
-                <marker date="1518154914631" expanded="true" signature="7296:7322" ph="UPDATE docs... " />
-                <marker date="1518154914631" expanded="true" signature="7296:7323" ph="UPDATE docs... " />
-                <marker date="1518154914631" expanded="true" signature="7296:7358" ph="UPDATE docs... " />
-                <marker date="1518154914631" expanded="true" signature="7640:7659" ph="SELECT * FRO... users" />
-                <marker date="1518154914631" expanded="true" signature="7640:7689" ph="SELECT * FRO... users" />
-                <marker date="1518154914631" expanded="true" signature="7640:7690" ph="SELECT * FRO... users" />
-                <marker date="1518154914631" expanded="true" signature="8619:8637" ph="SELECT * FRO... docs" />
-                <marker date="1518154914631" expanded="true" signature="8619:8667" ph="SELECT * FRO... docs" />
-                <marker date="1518154914631" expanded="true" signature="8619:8668" ph="SELECT * FRO... docs" />
+                <marker date="1518157030594" expanded="true" signature="1000:1271" ph="CREATE TABLE... IF" />
+                <marker date="1518157030594" expanded="true" signature="1000:1275" ph="CREATE TABLE... if" />
+                <marker date="1518157030594" expanded="true" signature="1000:1276" ph="CREATE TABLE... if" />
+                <marker date="1518157030594" expanded="true" signature="1303:2216" ph="CREATE TABLE... IF" />
+                <marker date="1518157030594" expanded="true" signature="1303:2217" ph="CREATE TABLE... IF" />
+                <marker date="1518157030594" expanded="true" signature="1303:2218" ph="CREATE TABLE... if" />
+                <marker date="1518157030594" expanded="true" signature="2395:2480" ph="INSERT INTO users... " />
+                <marker date="1518157030594" expanded="true" signature="2395:2496" ph="INSERT INTO users... " />
+                <marker date="1518157030594" expanded="true" signature="2395:2497" ph="INSERT INTO users... " />
+                <marker date="1518157030594" expanded="true" signature="2395:2512" ph="INSERT INTO users... " />
+                <marker date="1518157030594" expanded="true" signature="2993:3402" ph="INSERT INTO docs... " />
+                <marker date="1518157030594" expanded="true" signature="3581:3593" ph="DELETE FROM missingValue... " />
+                <marker date="1518157030594" expanded="true" signature="3581:3617" ph="DELETE FROM docs... " />
+                <marker date="1518157030594" expanded="true" signature="4056:4085" ph="SELECT * FRO... missingValue" />
+                <marker date="1518157030594" expanded="true" signature="4056:4102" ph="SELECT * FRO... missingValue" />
+                <marker date="1518157030594" expanded="true" signature="4056:4103" ph="SELECT * FRO... tab" />
+                <marker date="1518157030594" expanded="true" signature="4703:4733" ph="SELECT * FRO... users" />
+                <marker date="1518157030594" expanded="true" signature="4703:4734" ph="SELECT * FRO... users" />
+                <marker date="1518157030594" expanded="true" signature="5063:5093" ph="SELECT * FRO... docs" />
+                <marker date="1518157030594" expanded="true" signature="5499:5532" ph="SELECT id FR... docs" />
+                <marker date="1518157030594" expanded="true" signature="5965:5975" ph="SELECT * FRO... " />
+                <marker date="1518157030594" expanded="true" signature="5974:5975" ph="SELECT id FR... docs" />
+                <marker date="1518157030594" expanded="true" signature="6023:6054" ph="SELECT * FRO... users" />
+                <marker date="1518157030594" expanded="true" signature="6209:6249" ph="UPDATE users... " />
+                <marker date="1518157030594" expanded="true" signature="6525:6555" ph="SELECT * FRO... docs" />
+                <marker date="1518157030594" expanded="true" signature="6714:6740" ph="UPDATE docs... " />
+                <marker date="1518157030594" expanded="true" signature="6714:6741" ph="UPDATE docs... " />
+                <marker date="1518157030594" expanded="true" signature="6714:6764" ph="UPDATE docs... " />
+                <marker date="1518157030594" expanded="true" signature="6714:6765" ph="UPDATE docs... " />
+                <marker date="1518157030594" expanded="true" signature="6928:6957" ph="UPDATE docs... " />
+                <marker date="1518157030594" expanded="true" signature="6928:6992" ph="UPDATE docs... " />
+                <marker date="1518157030594" expanded="true" signature="7419:7445" ph="UPDATE docs... " />
+                <marker date="1518157030594" expanded="true" signature="7419:7446" ph="UPDATE docs... " />
+                <marker date="1518157030594" expanded="true" signature="7419:7481" ph="UPDATE docs... " />
+                <marker date="1518157030594" expanded="true" signature="7763:7782" ph="SELECT * FRO... users" />
+                <marker date="1518157030594" expanded="true" signature="7763:7812" ph="SELECT * FRO... users" />
+                <marker date="1518157030594" expanded="true" signature="7763:7813" ph="SELECT * FRO... users" />
+                <marker date="1518157030594" expanded="true" signature="8742:8760" ph="SELECT * FRO... docs" />
+                <marker date="1518157030594" expanded="true" signature="8742:8790" ph="SELECT * FRO... docs" />
+                <marker date="1518157030594" expanded="true" signature="8742:8791" ph="SELECT * FRO... docs" />
               </folding>
             </state>
           </provider>
@@ -320,7 +320,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66963000" />
+    <option name="totallyTimeSpent" value="68930000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -869,8 +869,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -879,53 +879,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Conn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="165" column="83" lean-forward="false" selection-start-line="165" selection-start-column="83" selection-end-line="165" selection-end-column="83" />
+        <state relative-caret-position="275">
+          <caret line="149" column="35" lean-forward="false" selection-start-line="149" selection-start-column="35" selection-end-line="149" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1518154914631" expanded="true" signature="1000:1271" ph="CREATE TABLE... IF" />
-            <marker date="1518154914631" expanded="true" signature="1000:1275" ph="CREATE TABLE... if" />
-            <marker date="1518154914631" expanded="true" signature="1000:1276" ph="CREATE TABLE... if" />
-            <marker date="1518154914631" expanded="true" signature="1303:2216" ph="CREATE TABLE... IF" />
-            <marker date="1518154914631" expanded="true" signature="1303:2217" ph="CREATE TABLE... IF" />
-            <marker date="1518154914631" expanded="true" signature="1303:2218" ph="CREATE TABLE... if" />
-            <marker date="1518154914631" expanded="true" signature="2395:2480" ph="INSERT INTO users... " />
-            <marker date="1518154914631" expanded="true" signature="2395:2496" ph="INSERT INTO users... " />
-            <marker date="1518154914631" expanded="true" signature="2395:2497" ph="INSERT INTO users... " />
-            <marker date="1518154914631" expanded="true" signature="2395:2512" ph="INSERT INTO users... " />
-            <marker date="1518154914631" expanded="true" signature="2993:3402" ph="INSERT INTO docs... " />
-            <marker date="1518154914631" expanded="true" signature="3581:3593" ph="DELETE FROM missingValue... " />
-            <marker date="1518154914631" expanded="true" signature="3581:3617" ph="DELETE FROM docs... " />
-            <marker date="1518154914631" expanded="true" signature="4056:4085" ph="SELECT * FRO... missingValue" />
-            <marker date="1518154914631" expanded="true" signature="4056:4102" ph="SELECT * FRO... missingValue" />
-            <marker date="1518154914631" expanded="true" signature="4056:4103" ph="SELECT * FRO... tab" />
-            <marker date="1518154914631" expanded="true" signature="4703:4733" ph="SELECT * FRO... users" />
-            <marker date="1518154914631" expanded="true" signature="4703:4734" ph="SELECT * FRO... users" />
-            <marker date="1518154914631" expanded="true" signature="5063:5093" ph="SELECT * FRO... docs" />
-            <marker date="1518154914631" expanded="true" signature="5499:5532" ph="SELECT id FR... docs" />
-            <marker date="1518154914631" expanded="true" signature="5965:5975" ph="SELECT * FRO... " />
-            <marker date="1518154914631" expanded="true" signature="5974:5975" ph="SELECT id FR... docs" />
-            <marker date="1518154914631" expanded="true" signature="6023:6054" ph="SELECT * FRO... users" />
-            <marker date="1518154914631" expanded="true" signature="6292:6318" ph="UPDATE users... " />
-            <marker date="1518154914631" expanded="true" signature="6292:6319" ph="UPDATE users... " />
-            <marker date="1518154914631" expanded="true" signature="6292:6345" ph="UPDATE users... " />
-            <marker date="1518154914631" expanded="true" signature="6292:6346" ph="UPDATE users... " />
-            <marker date="1518154914631" expanded="true" signature="6402:6432" ph="SELECT * FRO... docs" />
-            <marker date="1518154914631" expanded="true" signature="6591:6617" ph="UPDATE docs... " />
-            <marker date="1518154914631" expanded="true" signature="6591:6618" ph="UPDATE docs... " />
-            <marker date="1518154914631" expanded="true" signature="6591:6641" ph="UPDATE docs... " />
-            <marker date="1518154914631" expanded="true" signature="6591:6642" ph="UPDATE docs... " />
-            <marker date="1518154914631" expanded="true" signature="6805:6834" ph="UPDATE docs... " />
-            <marker date="1518154914631" expanded="true" signature="6805:6869" ph="UPDATE docs... " />
-            <marker date="1518154914631" expanded="true" signature="7296:7322" ph="UPDATE docs... " />
-            <marker date="1518154914631" expanded="true" signature="7296:7323" ph="UPDATE docs... " />
-            <marker date="1518154914631" expanded="true" signature="7296:7358" ph="UPDATE docs... " />
-            <marker date="1518154914631" expanded="true" signature="7640:7659" ph="SELECT * FRO... users" />
-            <marker date="1518154914631" expanded="true" signature="7640:7689" ph="SELECT * FRO... users" />
-            <marker date="1518154914631" expanded="true" signature="7640:7690" ph="SELECT * FRO... users" />
-            <marker date="1518154914631" expanded="true" signature="8619:8637" ph="SELECT * FRO... docs" />
-            <marker date="1518154914631" expanded="true" signature="8619:8667" ph="SELECT * FRO... docs" />
-            <marker date="1518154914631" expanded="true" signature="8619:8668" ph="SELECT * FRO... docs" />
+            <marker date="1518157030594" expanded="true" signature="1000:1271" ph="CREATE TABLE... IF" />
+            <marker date="1518157030594" expanded="true" signature="1000:1275" ph="CREATE TABLE... if" />
+            <marker date="1518157030594" expanded="true" signature="1000:1276" ph="CREATE TABLE... if" />
+            <marker date="1518157030594" expanded="true" signature="1303:2216" ph="CREATE TABLE... IF" />
+            <marker date="1518157030594" expanded="true" signature="1303:2217" ph="CREATE TABLE... IF" />
+            <marker date="1518157030594" expanded="true" signature="1303:2218" ph="CREATE TABLE... if" />
+            <marker date="1518157030594" expanded="true" signature="2395:2480" ph="INSERT INTO users... " />
+            <marker date="1518157030594" expanded="true" signature="2395:2496" ph="INSERT INTO users... " />
+            <marker date="1518157030594" expanded="true" signature="2395:2497" ph="INSERT INTO users... " />
+            <marker date="1518157030594" expanded="true" signature="2395:2512" ph="INSERT INTO users... " />
+            <marker date="1518157030594" expanded="true" signature="2993:3402" ph="INSERT INTO docs... " />
+            <marker date="1518157030594" expanded="true" signature="3581:3593" ph="DELETE FROM missingValue... " />
+            <marker date="1518157030594" expanded="true" signature="3581:3617" ph="DELETE FROM docs... " />
+            <marker date="1518157030594" expanded="true" signature="4056:4085" ph="SELECT * FRO... missingValue" />
+            <marker date="1518157030594" expanded="true" signature="4056:4102" ph="SELECT * FRO... missingValue" />
+            <marker date="1518157030594" expanded="true" signature="4056:4103" ph="SELECT * FRO... tab" />
+            <marker date="1518157030594" expanded="true" signature="4703:4733" ph="SELECT * FRO... users" />
+            <marker date="1518157030594" expanded="true" signature="4703:4734" ph="SELECT * FRO... users" />
+            <marker date="1518157030594" expanded="true" signature="5063:5093" ph="SELECT * FRO... docs" />
+            <marker date="1518157030594" expanded="true" signature="5499:5532" ph="SELECT id FR... docs" />
+            <marker date="1518157030594" expanded="true" signature="5965:5975" ph="SELECT * FRO... " />
+            <marker date="1518157030594" expanded="true" signature="5974:5975" ph="SELECT id FR... docs" />
+            <marker date="1518157030594" expanded="true" signature="6023:6054" ph="SELECT * FRO... users" />
+            <marker date="1518157030594" expanded="true" signature="6209:6249" ph="UPDATE users... " />
+            <marker date="1518157030594" expanded="true" signature="6525:6555" ph="SELECT * FRO... docs" />
+            <marker date="1518157030594" expanded="true" signature="6714:6740" ph="UPDATE docs... " />
+            <marker date="1518157030594" expanded="true" signature="6714:6741" ph="UPDATE docs... " />
+            <marker date="1518157030594" expanded="true" signature="6714:6764" ph="UPDATE docs... " />
+            <marker date="1518157030594" expanded="true" signature="6714:6765" ph="UPDATE docs... " />
+            <marker date="1518157030594" expanded="true" signature="6928:6957" ph="UPDATE docs... " />
+            <marker date="1518157030594" expanded="true" signature="6928:6992" ph="UPDATE docs... " />
+            <marker date="1518157030594" expanded="true" signature="7419:7445" ph="UPDATE docs... " />
+            <marker date="1518157030594" expanded="true" signature="7419:7446" ph="UPDATE docs... " />
+            <marker date="1518157030594" expanded="true" signature="7419:7481" ph="UPDATE docs... " />
+            <marker date="1518157030594" expanded="true" signature="7763:7782" ph="SELECT * FRO... users" />
+            <marker date="1518157030594" expanded="true" signature="7763:7812" ph="SELECT * FRO... users" />
+            <marker date="1518157030594" expanded="true" signature="7763:7813" ph="SELECT * FRO... users" />
+            <marker date="1518157030594" expanded="true" signature="8742:8760" ph="SELECT * FRO... docs" />
+            <marker date="1518157030594" expanded="true" signature="8742:8790" ph="SELECT * FRO... docs" />
+            <marker date="1518157030594" expanded="true" signature="8742:8791" ph="SELECT * FRO... docs" />
           </folding>
         </state>
       </provider>

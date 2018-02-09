@@ -109,7 +109,7 @@ public class Conn {
         boolean next = true;
         String[] holdi = new String[0];
         if (resSet.next())
-             holdi = resSet.getString("holding").split("-");
+             holdi = resSet.getString("holding").split(" ");
         else {
             next = false;
             System.out.println("No such user exists in the database.");
@@ -143,9 +143,12 @@ public class Conn {
                 String holding = resSet.getString("holding");
                 int lvl = resSet.getInt("access");
 
-                holding = holding + (holding.isEmpty() ? "" : "-")  + doc;
+                String sql = "UPDATE users SET holding = ? WHERE id = " + user;
+                holding = holding + (holding.isEmpty() ? "" : " ")  + doc;
+                PreparedStatement ps = conn.prepareStatement(sql);
+                ps.setString(1, holding);
+                ps.executeUpdate();
 
-                query.executeUpdate("UPDATE users SET holding = " + holding + " WHERE id = " + user);
                 resSet = query.executeQuery("SELECT * FROM docs WHERE id = " + doc);
                 int type = resSet.getInt("type");
                 int bestseller = resSet.getInt("bestseller");
@@ -208,6 +211,8 @@ public class Conn {
             System.out.print(" " + name);
             System.out.print(type == 1 ? ", book written" : type == 2 ? ", article written" : type == 3 ? ", AV material made" : "");
             System.out.print(" by " + author + ". ");
+            if (resSet.getInt("reference") == 1) System.out.print("Reference material. ");
+            if (resSet.getInt("bestseller") == 1) System.out.print("Current bestseller. ");
             if (resSet.getString("taken_by") != null && !resSet.getString("taken_by").isEmpty()) {
                 System.out.print("Currently is held by ID" + holder);
                 System.out.print(", due " + due + ".");
