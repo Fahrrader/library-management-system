@@ -67,6 +67,7 @@ public class Conn {
 
         System.out.println("User added!");
     }
+
     //type, copy, reference, name, author, publisher, journal, edition, editor, released, bestseller, price, located, tags, taken_by, taken_when, due_when
     public void addDoc(int type, int copy, int reference, String name, String author, String publisher, String journal, int edition, String editor, String released, int bestseller, int price, String located, String tags) throws SQLException {
         query.executeUpdate("INSERT INTO docs (type, copy, reference, name, author, publisher, journal, edition, editor, released, bestseller, price, located, tags) " +
@@ -97,11 +98,11 @@ public class Conn {
         String[] holding = resSet.getString("holding").split(" ");
         System.out.print("ID" + resSet.getString("id") + " " + resSet.getString("name") + " currently holds ");
         if (!holding[0].isEmpty()) System.out.print("ID(s) ");
-        for (int i = 0; i < holding.length-1; i++) {
+        for (int i = 0; i < holding.length - 1; i++) {
             System.out.print(holding[i] + ",");
         }
         if (holding[0].isEmpty()) System.out.print("nothing");
-        System.out.println(holding[holding.length-1] + ".");
+        System.out.println(holding[holding.length - 1] + ".");
     }
 
     public void bookDocument(int user, int doc) throws SQLException {
@@ -109,7 +110,7 @@ public class Conn {
         boolean next = true;
         String[] holdi = new String[0];
         if (resSet.next())
-             holdi = resSet.getString("holding").split(" ");
+            holdi = resSet.getString("holding").split(" ");
         else {
             next = false;
             System.out.println("No such user exists in the database.");
@@ -144,7 +145,7 @@ public class Conn {
                 int lvl = resSet.getInt("access");
 
                 String sql = "UPDATE users SET holding = ? WHERE id = " + user;
-                holding = holding + (holding.isEmpty() ? "" : " ")  + doc;
+                holding = holding + (holding.isEmpty() ? "" : " ") + doc;
                 PreparedStatement ps = conn.prepareStatement(sql);
                 ps.setString(1, holding);
                 ps.executeUpdate();
@@ -175,7 +176,7 @@ public class Conn {
 
     // -------- Printing users and documents table ---------
     public boolean readUsers(int id) throws SQLException {
-        resSet = query.executeQuery("SELECT * FROM users" + (id==0 ? "" : " WHERE id = " + id));
+        resSet = query.executeQuery("SELECT * FROM users" + (id == 0 ? "" : " WHERE id = " + id));
         boolean result = false;
 
         while (resSet.next()) {
@@ -197,7 +198,7 @@ public class Conn {
     }
 
     public boolean readDocs(int id) throws SQLException {
-        resSet = query.executeQuery("SELECT * FROM docs" + (id==0 ? "" : " WHERE id = " + id));
+        resSet = query.executeQuery("SELECT * FROM docs" + (id == 0 ? "" : " WHERE id = " + id));
         boolean result = false;
 
         while (resSet.next()) {
