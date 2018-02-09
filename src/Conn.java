@@ -96,6 +96,7 @@ public class Conn {
         resSet = query.executeQuery("SELECT id, name, holding FROM users WHERE id = " + id);
         String[] holding = resSet.getString("holding").split(" ");
         System.out.print("ID" + resSet.getString("id") + " " + resSet.getString("name") + " currently holds ");
+        if (!holding[0].isEmpty()) System.out.print("ID(s) ");
         for (int i = 0; i < holding.length-1; i++) {
             System.out.print(holding[i] + ",");
         }
@@ -108,7 +109,7 @@ public class Conn {
         boolean next = true;
         String[] holdi = new String[0];
         if (resSet.next())
-             holdi = resSet.getString("holding").split(" ");
+             holdi = resSet.getString("holding").split("-");
         else {
             next = false;
             System.out.println("No such user exists in the database.");
@@ -116,7 +117,7 @@ public class Conn {
 
         resSet = query.executeQuery("SELECT * FROM docs WHERE id = " + doc);
         int id = 0;
-        if (next && resSet.getInt("reference") == 1 && resSet.next())
+        if (next && resSet.next() && resSet.getInt("reference") == 0)
             id = resSet.getInt("copy");
         else {
             next = false;
@@ -134,12 +135,15 @@ public class Conn {
                 }
             }
 
+            if (copy) System.out.println("User already has one copy of the document.");
+            else if (!docSet) System.out.println("The document has already been checked out.");
+
             if (docSet && !copy) {
                 resSet = query.executeQuery("SELECT * FROM users WHERE id = " + user);
                 String holding = resSet.getString("holding");
                 int lvl = resSet.getInt("access");
 
-                holding = holding + " " + doc;
+                holding = holding + (holding.isEmpty() ? "" : "-")  + doc;
 
                 query.executeUpdate("UPDATE users SET holding = " + holding + " WHERE id = " + user);
                 resSet = query.executeQuery("SELECT * FROM docs WHERE id = " + doc);
@@ -158,8 +162,11 @@ public class Conn {
                 else if (type == 1) c.add(Calendar.DATE, 21);
                 else c.add(Calendar.DATE, 14);
                 now = c.getTime();
+
                 query.executeUpdate("UPDATE docs SET due_when = " + sdf.format(now) + " WHERE id = " + doc);
-            } else System.out.println("User already has one copy of the document.");
+
+                System.out.println("Document has been successfully checked out!");
+            }
         }
     }
 
@@ -196,7 +203,7 @@ public class Conn {
             String author = resSet.getString("author");
             int type = resSet.getInt("type");
             int holder = resSet.getInt("taken_by");
-            String due = resSet.getString("due_when");
+            java.sql.Date due = resSet.getDate("due_when");
             System.out.print("ID" + i);
             System.out.print(" " + name);
             System.out.print(type == 1 ? ", book written" : type == 2 ? ", article written" : type == 3 ? ", AV material made" : "");
