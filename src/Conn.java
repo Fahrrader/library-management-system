@@ -1,4 +1,7 @@
 import java.sql.*;
+import java.util.Calendar;
+import java.util.Date;
+import java.text.SimpleDateFormat;
 
 public class Conn {
     private static Connection conn;
@@ -77,11 +80,11 @@ public class Conn {
         String sql = "DELETE FROM " + tab + " WHERE id = ?";
 
         try (Connection conn = this.connect();
-             PreparedStatement pstmt = conn.prepareStatement(sql)) {
+             PreparedStatement ps = conn.prepareStatement(sql)) {
 
-            pstmt.setInt(1, id);
+            ps.setInt(1, id);
 
-            pstmt.executeUpdate();
+            ps.executeUpdate();
 
             System.out.println("Item was removed.");
         } catch (SQLException e) {
@@ -113,10 +116,14 @@ public class Conn {
 
         resSet = query.executeQuery("SELECT * FROM docs WHERE id = " + doc);
         int id = 0;
-        if (next && resSet.next()) id = resSet.getInt("copy");
-        else System.out.println("No such document exists in the database.");
+        if (next && resSet.getInt("reference") == 1 && resSet.next())
+            id = resSet.getInt("copy");
+        else {
+            next = false;
+            System.out.println("No such document is free or exists in the database.");
+        }
         if (next) {
-            boolean docSet = resSet.next() && resSet.getString("taken_by") == null;
+            boolean docSet = resSet.getString("taken_by") == null;
             resSet = query.executeQuery("SELECT id FROM docs WHERE copy = " + id);
 
             boolean copy = false;
@@ -126,18 +133,33 @@ public class Conn {
                     if (i.equals(resSet.getString("id"))) copy = true;
                 }
             }
-            System.out.print(docSet + " " + !copy);
 
-            if (resSet.next() && docSet && !copy) {
-
+            if (docSet && !copy) {
+                resSet = query.executeQuery("SELECT * FROM users WHERE id = " + user);
                 String holding = resSet.getString("holding");
                 int lvl = resSet.getInt("access");
 
-                //holding = holding + " " + doc;
-                System.out.print("Yes.");
+                holding = holding + " " + doc;
 
                 query.executeUpdate("UPDATE users SET holding = " + holding + " WHERE id = " + user);
-            } else System.out.print("No.");
+                resSet = query.executeQuery("SELECT * FROM docs WHERE id = " + doc);
+                int type = resSet.getInt("type");
+                int bestseller = resSet.getInt("bestseller");
+                query.executeUpdate("UPDATE docs SET taken_by = " + user + " WHERE id = " + doc);
+
+                Date now = new Date();
+                SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+
+                query.executeUpdate("UPDATE docs SET taken_when = " + sdf.format(now) + " WHERE id = " + doc);
+                Calendar c = Calendar.getInstance();
+                c.setTime(now);
+                if (type == 1 && lvl <= 1) c.add(Calendar.DATE, 28);
+                else if (type == 1 && bestseller == 1) c.add(Calendar.DATE, 14);
+                else if (type == 1) c.add(Calendar.DATE, 21);
+                else c.add(Calendar.DATE, 14);
+                now = c.getTime();
+                query.executeUpdate("UPDATE docs SET due_when = " + sdf.format(now) + " WHERE id = " + doc);
+            } else System.out.println("User already has one copy of the document.");
         }
     }
 
@@ -156,7 +178,7 @@ public class Conn {
             System.out.print(lvl == 0 ? " Librarian" : lvl == 1 ? " Faculty" : lvl == 2 ? " Student" : "");
             System.out.print(" " + name);
             System.out.print(", phone " + phone);
-            if (!holding.isEmpty()) System.out.print(", holds IDs " + holding);
+            if (!holding.isEmpty()) System.out.print(", holds ID(s) " + holding);
             System.out.println(".");
             result = true;
         }
@@ -174,13 +196,13 @@ public class Conn {
             String author = resSet.getString("author");
             int type = resSet.getInt("type");
             int holder = resSet.getInt("taken_by");
-            Date due = resSet.getDate("due_when");
+            String due = resSet.getString("due_when");
             System.out.print("ID" + i);
             System.out.print(" " + name);
             System.out.print(type == 1 ? ", book written" : type == 2 ? ", article written" : type == 3 ? ", AV material made" : "");
             System.out.print(" by " + author + ". ");
             if (resSet.getString("taken_by") != null && !resSet.getString("taken_by").isEmpty()) {
-                System.out.print("Currently is held by " + holder);
+                System.out.print("Currently is held by ID" + holder);
                 System.out.print(", due " + due + ".");
             }
             System.out.println();
