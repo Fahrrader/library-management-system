@@ -13,7 +13,7 @@ public class Main {
         String input;
         boolean run = true;
 
-        System.out.println("Enter command - you can always try 'help':");
+        System.out.println("Enter a command - you can always try typing 'help':");
         while (in.hasNextLine() && run) {
             input = in.next();
             switch (input) {

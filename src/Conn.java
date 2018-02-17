@@ -8,6 +8,10 @@ public class Conn {
     private static Statement query;
     private static ResultSet resSet;
 
+    /**
+     *
+     * @return
+     */
     private Connection connect() {
         String url = "jdbc:sqlite:library.db";
         conn = null;
@@ -95,6 +99,10 @@ public class Conn {
 
     public void findHeldDocs(int id) throws SQLException {
         resSet = query.executeQuery("SELECT id, name, holding FROM users WHERE id = " + id);
+        if (!resSet.next()) {
+            System.out.println("No such user exists.");
+            return;
+        }
         String[] holding = resSet.getString("holding").split(" ");
         System.out.print("ID" + resSet.getString("id") + " " + resSet.getString("name") + " currently holds ");
         if (!holding[0].isEmpty()) System.out.print("ID(s) ");
@@ -118,11 +126,16 @@ public class Conn {
 
         resSet = query.executeQuery("SELECT * FROM docs WHERE id = " + doc);
         int id = 0;
-        if (next && resSet.next() && resSet.getInt("reference") == 0)
-            id = resSet.getInt("copy");
+        if (next && resSet.next())
+                if (resSet.getInt("reference") == 0)
+                    id = resSet.getInt("copy");
+                else {
+                    System.out.println("This document is a reference which cannot be checked out.");
+                    next = false;
+                }
         else {
             next = false;
-            System.out.println("No such document is free or exists in the database.");
+            System.out.println("No such document exists in the database.");
         }
         if (next) {
             boolean docSet = resSet.getString("taken_by") == null;
