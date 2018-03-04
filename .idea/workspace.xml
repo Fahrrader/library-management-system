@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="33ff5c02-f970-4787-8bf0-4c99afe42a48" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/Document.java" afterPath="$PROJECT_DIR$/src/Document.java" />
       <change beforePath="$PROJECT_DIR$/src/User.java" afterPath="$PROJECT_DIR$/src/User.java" />
     </list>
-=======
     <list default="true" id="33ff5c02-f970-4787-8bf0-4c99afe42a48" name="Default" comment="" />
->>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,13 +44,10 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
             <state relative-caret-position="408">
               <caret line="25" column="72" lean-forward="false" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
-=======
             <state relative-caret-position="267">
               <caret line="49" column="26" lean-forward="true" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
->>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,13 +58,10 @@
       <file leaf-file-name="Conn.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Conn.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
             <state relative-caret-position="3723">
               <caret line="222" column="29" lean-forward="false" selection-start-line="222" selection-start-column="29" selection-end-line="222" selection-end-column="29" />
-=======
             <state relative-caret-position="272">
               <caret line="108" column="62" lean-forward="true" selection-start-line="108" selection-start-column="62" selection-end-line="108" selection-end-column="62" />
->>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,14 +72,11 @@
       <file leaf-file-name="Document.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Document.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
             <state relative-caret-position="272">
               <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding />
-=======
             <state relative-caret-position="34">
               <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
->>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
             </state>
           </provider>
         </entry>
@@ -168,17 +156,14 @@
         <option value="$PROJECT_DIR$/src/Patron.java" />
         <option value="$PROJECT_DIR$/src/Doc.java" />
         <option value="$PROJECT_DIR$/src/Librarian.java" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Conn.java" />
         <option value="$PROJECT_DIR$/src/Document.java" />
         <option value="$PROJECT_DIR$/src/User.java" />
-=======
         <option value="$PROJECT_DIR$/src/User.java" />
         <option value="$PROJECT_DIR$/src/Document.java" />
         <option value="$PROJECT_DIR$/src/Conn.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
->>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
       </list>
     </option>
   </component>
@@ -197,12 +182,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
-=======
->>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,11 +201,8 @@
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
-=======
       <pane id="Scope" />
       <pane id="PackagesPane" />
->>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -307,25 +286,19 @@
       <workItem from="1518114839612" duration="2515000" />
       <workItem from="1518475264149" duration="276000" />
       <workItem from="1518618043982" duration="1279000" />
-<<<<<<< HEAD
       <workItem from="1518867432226" duration="3647000" />
       <workItem from="1519249620322" duration="184000" />
       <workItem from="1519851251678" duration="623000" />
       <workItem from="1520187053718" duration="842000" />
       <workItem from="1520191275348" duration="5000" />
-=======
       <workItem from="1518867432226" duration="3052000" />
       <workItem from="1520185722737" duration="245000" />
->>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
     <option name="totallyTimeSpent" value="79639000" />
-=======
     <option name="totallyTimeSpent" value="77635000" />
->>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -337,7 +310,6 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -372,7 +344,6 @@
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-=======
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
@@ -408,7 +379,6 @@
       <window_info anchor="right" id="SciView" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3287483" />
->>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -786,44 +756,33 @@
     <entry file="file://$PROJECT_DIR$/src/Faculty.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-<<<<<<< HEAD
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-=======
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
->>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-=======
         <state>
           <caret column="20" selection-start-column="20" selection-end-column="20" />
->>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Librarian.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-=======
         <state>
           <caret column="22" selection-start-column="22" selection-end-column="22" />
->>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Article.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-<<<<<<< HEAD
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-=======
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
@@ -832,40 +791,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="23" selection-start-column="23" selection-end-column="23" />
->>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-=======
         <state>
           <caret column="17" selection-start-column="17" selection-end-column="17" />
->>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/User.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="408">
           <caret line="25" column="72" lean-forward="false" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-=======
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
->>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Document.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="3723">
           <caret line="222" column="29" lean-forward="false" selection-start-line="222" selection-start-column="29" selection-end-line="222" selection-end-column="29" />
           <folding>
@@ -935,7 +886,6 @@
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
-=======
         <state relative-caret-position="34">
           <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
         </state>
@@ -958,7 +908,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
->>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
         </state>
       </provider>
     </entry>
