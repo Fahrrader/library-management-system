@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="33ff5c02-f970-4787-8bf0-4c99afe42a48" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/Document.java" afterPath="$PROJECT_DIR$/src/Document.java" />
       <change beforePath="$PROJECT_DIR$/src/User.java" afterPath="$PROJECT_DIR$/src/User.java" />
     </list>
+=======
+    <list default="true" id="33ff5c02-f970-4787-8bf0-4c99afe42a48" name="Default" comment="" />
+>>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,9 +29,11 @@
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -38,11 +44,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="408">
               <caret line="25" column="72" lean-forward="false" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
+=======
+            <state relative-caret-position="267">
+              <caret line="49" column="26" lean-forward="true" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+>>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,50 +64,15 @@
       <file leaf-file-name="Conn.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Conn.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="3723">
               <caret line="222" column="29" lean-forward="false" selection-start-line="222" selection-start-column="29" selection-end-line="222" selection-end-column="29" />
+=======
+            <state relative-caret-position="272">
+              <caret line="108" column="62" lean-forward="true" selection-start-line="108" selection-start-column="62" selection-end-line="108" selection-end-column="62" />
+>>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1518870616739" expanded="true" signature="1038:1309" ph="CREATE TABLE... IF" />
-                <marker date="1518870616739" expanded="true" signature="1038:1313" ph="CREATE TABLE... if" />
-                <marker date="1518870616739" expanded="true" signature="1038:1314" ph="CREATE TABLE... if" />
-                <marker date="1518870616739" expanded="true" signature="1341:2254" ph="CREATE TABLE... IF" />
-                <marker date="1518870616739" expanded="true" signature="1341:2255" ph="CREATE TABLE... IF" />
-                <marker date="1518870616739" expanded="true" signature="1341:2256" ph="CREATE TABLE... if" />
-                <marker date="1518870616739" expanded="true" signature="2433:2518" ph="INSERT INTO users... " />
-                <marker date="1518870616739" expanded="true" signature="2433:2534" ph="INSERT INTO users... " />
-                <marker date="1518870616739" expanded="true" signature="2433:2535" ph="INSERT INTO users... " />
-                <marker date="1518870616739" expanded="true" signature="2433:2550" ph="INSERT INTO users... " />
-                <marker date="1518870616739" expanded="true" signature="3032:3441" ph="INSERT INTO docs... " />
-                <marker date="1518870616739" expanded="true" signature="3620:3632" ph="DELETE FROM missingValue... " />
-                <marker date="1518870616739" expanded="true" signature="3620:3656" ph="DELETE FROM docs... " />
-                <marker date="1518870616739" expanded="true" signature="4095:4124" ph="SELECT * FRO... missingValue" />
-                <marker date="1518870616739" expanded="true" signature="4095:4141" ph="SELECT * FRO... missingValue" />
-                <marker date="1518870616739" expanded="true" signature="4095:4142" ph="SELECT * FRO... tab" />
-                <marker date="1518870616739" expanded="true" signature="4862:4892" ph="SELECT * FRO... users" />
-                <marker date="1518870616739" expanded="true" signature="4862:4893" ph="SELECT * FRO... users" />
-                <marker date="1518870616739" expanded="true" signature="5221:5251" ph="SELECT * FRO... docs" />
-                <marker date="1518870616739" expanded="true" signature="5848:5881" ph="SELECT id FR... docs" />
-                <marker date="1518870616739" expanded="true" signature="6314:6324" ph="SELECT * FRO... " />
-                <marker date="1518870616739" expanded="true" signature="6323:6324" ph="SELECT id FR... docs" />
-                <marker date="1518870616739" expanded="true" signature="6372:6403" ph="SELECT * FRO... users" />
-                <marker date="1518870616739" expanded="true" signature="6558:6598" ph="UPDATE users... " />
-                <marker date="1518870616739" expanded="true" signature="6873:6903" ph="SELECT * FRO... docs" />
-                <marker date="1518870616739" expanded="true" signature="7062:7088" ph="UPDATE docs... " />
-                <marker date="1518870616739" expanded="true" signature="7062:7089" ph="UPDATE docs... " />
-                <marker date="1518870616739" expanded="true" signature="7062:7112" ph="UPDATE docs... " />
-                <marker date="1518870616739" expanded="true" signature="7062:7113" ph="UPDATE docs... " />
-                <marker date="1518870616739" expanded="true" signature="7276:7305" ph="UPDATE docs... " />
-                <marker date="1518870616739" expanded="true" signature="7276:7340" ph="UPDATE docs... " />
-                <marker date="1518870616739" expanded="true" signature="7767:7793" ph="UPDATE docs... " />
-                <marker date="1518870616739" expanded="true" signature="7767:7794" ph="UPDATE docs... " />
-                <marker date="1518870616739" expanded="true" signature="7767:7829" ph="UPDATE docs... " />
-                <marker date="1518870616739" expanded="true" signature="8111:8130" ph="SELECT * FRO... users" />
-                <marker date="1518870616739" expanded="true" signature="8111:8162" ph="SELECT * FRO... users" />
-                <marker date="1518870616739" expanded="true" signature="8111:8163" ph="SELECT * FRO... users" />
-                <marker date="1518870616739" expanded="true" signature="9092:9110" ph="SELECT * FRO... docs" />
-                <marker date="1518870616739" expanded="true" signature="9092:9142" ph="SELECT * FRO... docs" />
-                <marker date="1518870616739" expanded="true" signature="9092:9143" ph="SELECT * FRO... docs" />
               </folding>
             </state>
           </provider>
@@ -105,9 +81,14 @@
       <file leaf-file-name="Document.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Document.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="272">
               <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding />
+=======
+            <state relative-caret-position="34">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+>>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
             </state>
           </provider>
         </entry>
@@ -126,8 +107,7 @@
         <entry file="file://$PROJECT_DIR$/src/AudioVideo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -152,11 +132,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -193,10 +168,17 @@
         <option value="$PROJECT_DIR$/src/Patron.java" />
         <option value="$PROJECT_DIR$/src/Doc.java" />
         <option value="$PROJECT_DIR$/src/Librarian.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Conn.java" />
         <option value="$PROJECT_DIR$/src/Document.java" />
         <option value="$PROJECT_DIR$/src/User.java" />
+=======
+        <option value="$PROJECT_DIR$/src/User.java" />
+        <option value="$PROJECT_DIR$/src/Document.java" />
+        <option value="$PROJECT_DIR$/src/Conn.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+>>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
       </list>
     </option>
   </component>
@@ -207,27 +189,20 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1366" />
-    <option name="height" value="768" />
+    <option name="width" value="1367" />
+    <option name="height" value="769" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+=======
+>>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,17 +219,22 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+>>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
-    <property name="last_opened_file_path" value="D:/Archive/Data/Semester2/class3a" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -277,18 +257,11 @@
   </component>
   <component name="RunManager">
     <configuration name="library" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-9.0.1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="9.0" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="library" />
-      <envs />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
@@ -308,13 +281,10 @@
       <method />
     </configuration>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.library" />
+      <list>
+        <item itemvalue="Application.library" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -337,16 +307,25 @@
       <workItem from="1518114839612" duration="2515000" />
       <workItem from="1518475264149" duration="276000" />
       <workItem from="1518618043982" duration="1279000" />
+<<<<<<< HEAD
       <workItem from="1518867432226" duration="3647000" />
       <workItem from="1519249620322" duration="184000" />
       <workItem from="1519851251678" duration="623000" />
       <workItem from="1520187053718" duration="842000" />
       <workItem from="1520191275348" duration="5000" />
+=======
+      <workItem from="1518867432226" duration="3052000" />
+      <workItem from="1520185722737" duration="245000" />
+>>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="79639000" />
+=======
+    <option name="totallyTimeSpent" value="77635000" />
+>>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -358,6 +337,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -392,6 +372,43 @@
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32890856" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.17274168" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.503231" side_tool="true" weight="0.23108666" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49676898" visible="true" weight="0.19448276" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1920573" />
+      <window_info anchor="right" id="Database" order="3" sideWeight="0.49373883" visible="true" weight="0.1451823" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39889959" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.3292683" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="3" sideWeight="0.50626117" side_tool="true" weight="0.15024233" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3287483" />
+>>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,7 +421,6 @@
     <breakpoint-manager>
       <option name="time" value="9" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="uml://JAVA/AV_materials">
@@ -683,23 +699,19 @@
     <entry file="file://$PROJECT_DIR$/library.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="51" lean-forward="false" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AV_material.java" />
     <entry file="uml://JAVA/">
@@ -747,20 +759,8 @@
     <entry file="file://$PROJECT_DIR$/src/Patron.java" />
     <entry file="das://table:/1a60e654/53465329-f7f2-4005-b586-a7eb71e97519/main.users" />
     <entry file="das://table:/1a60e654/53465329-f7f2-4005-b586-a7eb71e97519/main.docs" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/68888e0e-802b-41e5-896a-34dc7fd7c43b/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/1a60e654/68888e0e-802b-41e5-896a-34dc7fd7c43b/main.docs">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/68888e0e-802b-41e5-896a-34dc7fd7c43b/console.sql" />
+    <entry file="das://table:/1a60e654/68888e0e-802b-41e5-896a-34dc7fd7c43b/main.docs" />
     <entry file="uml://JAVA/Conn">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -782,60 +782,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/1a60e654/68888e0e-802b-41e5-896a-34dc7fd7c43b/main.users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://table:/1a60e654/68888e0e-802b-41e5-896a-34dc7fd7c43b/main.users" />
     <entry file="file://$PROJECT_DIR$/src/Faculty.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
+<<<<<<< HEAD
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+=======
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+>>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Student.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+=======
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+>>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Librarian.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+=======
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+>>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Article.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
+<<<<<<< HEAD
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+=======
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AudioVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+>>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Book.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+=======
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+>>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/User.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="408">
           <caret line="25" column="72" lean-forward="false" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+>>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Conn.java">
+    <entry file="file://$PROJECT_DIR$/src/Document.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="3723">
           <caret line="222" column="29" lean-forward="false" selection-start-line="222" selection-start-column="29" selection-end-line="222" selection-end-column="29" />
           <folding>
@@ -905,6 +935,30 @@
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
+=======
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Conn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="108" column="62" lean-forward="true" selection-start-line="108" selection-start-column="62" selection-end-line="108" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="49" column="26" lean-forward="true" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> 74a637ef45d49c0654f99e5a5ac7025189cbdf0c
         </state>
       </provider>
     </entry>

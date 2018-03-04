@@ -96,6 +96,7 @@ public class Conn {
             System.out.println("No such item exists.");
         }
     }
+//Жопа
 
     public void findHeldDocs(int id) throws SQLException {
         resSet = query.executeQuery("SELECT id, name, holding FROM users WHERE id = " + id);
@@ -246,6 +247,10 @@ public class Conn {
         if (resSet != null) resSet.close();
 
         System.out.println("Terminated.");
+    }
+
+    public static void returnDoc(int id){
+
     }
 
 }
