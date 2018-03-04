@@ -1,20 +1,26 @@
+import java.sql.SQLException;
+
 public interface Document
 {
-    String createTable();
+    // add the newly created document to the table
+    String add() throws SQLException;
 
-    // String add();
+    String delete() throws SQLException;
 
-    String delete();
+    String modify() throws SQLException;
 
-    String modify();
+    // return the document and return the status string (successful, no such document, etc.)
+    String returnDocument() throws SQLException;
 
-    String[] returnDocument();
+    // set the document to 'taken' and return the status string
+    String takeDocument() throws SQLException;
 
-    String takeDocument();
+    // see summary about the doc
+    String view() throws SQLException;
 
-    String view();
+    // see id of the holder
+    String viewHolder() throws SQLException;
 
-    String viewHolder();
-
-    String calculateCost();
+    // return cost of the fine if returned
+    String calculateFine() throws SQLException;
 }
