@@ -249,4 +249,8 @@ public class Conn {
         System.out.println("Terminated.");
     }
 
+    public static void returnDoc(int id){
+
+    }
+
 }
