@@ -8,10 +8,6 @@ public class Conn {
     private static Statement query;
     private static ResultSet resSet;
 
-    /**
-     *
-     * @return
-     */
     private Connection connect() {
         String url = "jdbc:sqlite:library.db";
         conn = null;
@@ -96,7 +92,6 @@ public class Conn {
             System.out.println("No such item exists.");
         }
     }
-//Жопа
 
     public void findHeldDocs(int id) throws SQLException {
         resSet = query.executeQuery("SELECT id, name, holding FROM users WHERE id = " + id);
