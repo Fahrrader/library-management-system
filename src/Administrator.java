@@ -1,6 +1,6 @@
 import java.sql.SQLException;
 
-public interface Administrator extends User{
+public interface Administrator{
     String add(String name, int access, String phone) throws SQLException;
 
     String delete(int id) throws SQLException;
