@@ -4,20 +4,11 @@ import java.util.Date;
 import java.text.SimpleDateFormat;
 
 public class Conn {
-    private static Connection conn;
-    private static Statement query;
-    private static ResultSet resSet;
+    public static Connection conn;
+    public static Statement query;
+    public static ResultSet resSet;
 
-    private Connection connect() {
-        String url = "jdbc:sqlite:library.db";
-        conn = null;
-        try {
-            conn = DriverManager.getConnection(url);
-        } catch (SQLException e) {
-            System.out.println(e.getMessage());
-        }
-        return conn;
-    }
+
 
     // -------- ACCESSING DATABASE ---------
     public static void access() throws ClassNotFoundException, SQLException {
@@ -60,54 +51,9 @@ public class Conn {
                 "CHECK (price>=0));");
     }
 
-    // -------- Adding users and documents --------
-    public void addUser(String name, int access, String phone) throws SQLException {
-        query.executeUpdate("INSERT INTO users (name, access, phone) " +
-                "VALUES ('" + name + "','" + access + "','" + phone + "')");
 
-        System.out.println("User added!");
-    }
 
-    //type, copy, reference, name, author, publisher, journal, edition, editor, released, bestseller, price, located, tags, taken_by, taken_when, due_when
-    public void addDoc(int type, int copy, int reference, String name, String author, String publisher, String journal, int edition, String editor, String released, int bestseller, int price, String located, String tags) throws SQLException {
-        query.executeUpdate("INSERT INTO docs (type, copy, reference, name, author, publisher, journal, edition, editor, released, bestseller, price, located, tags) " +
-                "VALUES ('" + type + "','" + copy + "','" + reference + "','" + name + "','" + author + "','" + publisher + "','" + journal + "','" + edition + "','" + editor + "','" + released + "','" + bestseller + "','" + price + "','" + located + "','" + tags + "')");
 
-        System.out.println("Document added!");
-    }
-
-    // ------- Deleting users and documents --------
-    public void remove(String tab, int id) {
-        String sql = "DELETE FROM " + tab + " WHERE id = ?";
-
-        try (Connection conn = this.connect();
-             PreparedStatement ps = conn.prepareStatement(sql)) {
-
-            ps.setInt(1, id);
-
-            ps.executeUpdate();
-
-            System.out.println("Item was removed.");
-        } catch (SQLException e) {
-            System.out.println("No such item exists.");
-        }
-    }
-
-    public void findHeldDocs(int id) throws SQLException {
-        resSet = query.executeQuery("SELECT id, name, holding FROM users WHERE id = " + id);
-        if (!resSet.next()) {
-            System.out.println("No such user exists.");
-            return;
-        }
-        String[] holding = resSet.getString("holding").split(" ");
-        System.out.print("ID" + resSet.getString("id") + " " + resSet.getString("name") + " currently holds ");
-        if (!holding[0].isEmpty()) System.out.print("ID(s) ");
-        for (int i = 0; i < holding.length - 1; i++) {
-            System.out.print(holding[i] + ",");
-        }
-        if (holding[0].isEmpty()) System.out.print("nothing");
-        System.out.println(holding[holding.length - 1] + ".");
-    }
 
     public void bookDocument(int user, int doc) throws SQLException {
         resSet = query.executeQuery("SELECT * FROM users WHERE id = " + user);

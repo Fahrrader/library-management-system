@@ -5,6 +5,7 @@ public class Main {
 
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
         Conn conn = new Conn();
+        Librarian lib = new Librarian();
 
         Conn.access();
         Conn.createDB();
@@ -12,6 +13,15 @@ public class Main {
         Scanner in = new Scanner(System.in);
         String input;
         boolean run = true;
+
+        //////////////////////  TEST ///////////////////
+        lib.addDoc(1,1,1,"chto-to", "kto-to", "hz", "hz1", 1, "any", "12", 1, 123, "zopa", "nax");
+        lib.addUser("Vasya", 2, "123112");
+
+
+        ////////////////////////////////////////////////
+
+
 
         System.out.println("Enter a command - you can always try typing 'help':");
         while (in.hasNextLine() && run) {
@@ -31,7 +41,7 @@ public class Main {
                     break;
                 case "calculate":
                     input = in.next();
-                    conn.findHeldDocs(Integer.parseInt(input));
+                    lib.findHeldDocs(Integer.parseInt(input));
                     break;
                 case "see":
                     input = in.next();
