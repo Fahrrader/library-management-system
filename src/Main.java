@@ -20,15 +20,15 @@ public class Main
             int id = in.nextInt();
             System.out.println("Please, enter your password: ");
             String pw = in.next();
-            if (Support.findAccessLvl(id, pw) != -1)
+            int access = Conn.requestLogIn(id, pw);
+            if (access != -1)
             {
-                int access = Support.findAccessLvl(id, pw);
                 user = new CurrentUser(id, pw, access);
                 System.out.println("Welcome, ID" + id + "!");
                 flag = false;
             }
             else
-                System.out.println("User not recognised. Try again?");
+                System.out.println("User ID or password not recognised. Try again?");
         }
 
         boolean run = true;

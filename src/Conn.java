@@ -110,6 +110,18 @@ public class Conn {
                 "CHECK (price>=0));");
     }
 
+    public static int requestLogIn (int id, String password) throws SQLException
+    {
+        Conn.resSet = Conn.query.executeQuery("SELECT access, password FROM users WHERE id = " + id);
+        if (!Conn.resSet.next())
+            return -1;
+
+        String real_password = Conn.resSet.getString("password");
+        if (password.equals(real_password))
+            return Conn.resSet.getInt("access");
+        return -1;
+    }
+
     // -------- Terminating access --------
     public static void terminate() throws SQLException {
         if (query != null) query.close();
