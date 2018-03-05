@@ -1,7 +1,6 @@
 import java.sql.SQLException;
 
-public interface Document
-{
+public interface Document {
     // add the newly created document to the table
     String add() throws SQLException;
 

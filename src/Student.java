@@ -1,6 +1,4 @@
-import java.sql.*;
+public class Student extends OrdinaryUser {
 
-public class Student
-{
 
 }
