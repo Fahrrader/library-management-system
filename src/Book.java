@@ -62,13 +62,18 @@ public class Book implements Document
             System.out.print(Conn.resSet.getString("released"));
             System.out.print(", with value of " + Conn.resSet.getInt("price"));
             System.out.println(" rubbles. ");
+            boolean noteMade = false;
             if (Conn.resSet.getInt("bestseller") == 1)
             {
-                System.out.println("This book is a current bestseller.");
+                System.out.print("Notes: ");
+                noteMade = true;
+                System.out.print("bestseller");
             }
             if (Conn.resSet.getInt("reference") == 1)
             {
-                System.out.println("This item is a reference, and cannot be checked out.");
+                if (noteMade) System.out.print(", ");
+                else System.out.print("Notes: ");
+                System.out.print("reference");
             }
             if (Conn.resSet.getString("taken_by") != null)
             {

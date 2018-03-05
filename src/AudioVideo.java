@@ -50,22 +50,21 @@ public class AudioVideo implements Document
     {
         Conn.resSet = Conn.query.executeQuery("SELECT FROM a_v_materials WHERE id = " + id);
         if (Conn.resSet.next()) {
-            System.out.print("Audio/Video Material ID3-");
-            System.out.print(Conn.resSet.getInt("id"));
-            System.out.print(" " + Conn.resSet.getString("name"));
-            System.out.print(" by " + Conn.resSet.getString("author"));
-            System.out.print(" with value of " + Conn.resSet.getInt("price"));
-            System.out.print(" rubbles.");
+            System.out.println("ID3-" + Conn.resSet.getInt("id"));
+            System.out.println("Type: Audio/Video Material");
+            System.out.println("Title: " + Conn.resSet.getString("name"));
+            System.out.println("Authors: " + Conn.resSet.getString("author"));
+            System.out.println("Price: " + Conn.resSet.getInt("price") + " rubbles.");
             if (Conn.resSet.getString("taken_by") != null)
             {
-                System.out.print(" Currently is held by ID");
+                System.out.print("Currently is held by ID");
                 System.out.print(Conn.resSet.getInt("taken_by"));
                 System.out.print(" since ");
                 System.out.print(Conn.resSet.getString("taken_when"));
                 System.out.print(", due ");
                 System.out.print(Conn.resSet.getString("due_when") + ".");
+                System.out.println();
             }
-            System.out.println();
         }
         else
             System.out.println("No such material exists in the database.");
