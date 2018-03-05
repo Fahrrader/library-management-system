@@ -44,7 +44,7 @@ public class Main {
                         break;
                     case "check":
                         input = in.next();
-                        st.bookDocument(Integer.parseInt(array[0]), Integer.parseInt(in.next()));
+                        st.bookDocument(Integer.parseInt(array[0]), Integer.parseInt(input));
                         break;
                     case "see":
                         input = in.next();
