@@ -1,6 +1,6 @@
 import java.sql.SQLException;
 
-public class AudioVideo implements Document{
+public class AudioVideo implements Document {
 
     public String add() throws SQLException {
         return null;

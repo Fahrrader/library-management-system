@@ -1,6 +1,6 @@
 import java.sql.SQLException;
 
-public class Article implements Document{
+public class Article implements Document {
 
     public String add() throws SQLException {
         return null;

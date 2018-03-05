@@ -1,7 +1,4 @@
 import java.sql.*;
-import java.util.Calendar;
-import java.util.Date;
-import java.text.SimpleDateFormat;
 
 public class Conn {
     public static Connection conn;

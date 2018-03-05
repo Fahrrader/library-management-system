@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
-        Conn conn = new Conn();
         Librarian lib = new Librarian();
         Student st = new Student();
 
@@ -14,8 +13,6 @@ public class Main {
         Scanner in = new Scanner(System.in);
         String input;
         boolean run = true;
-
-
 
 
 

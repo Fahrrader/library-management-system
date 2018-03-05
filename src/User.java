@@ -1,11 +1,6 @@
 import java.sql.SQLException;
 
-public class User
-{
-    String view() throws SQLException{
-        return null;
-    };
-
+public class User {
     public boolean readDocs(int id) throws SQLException {
         Conn.resSet = Conn.query.executeQuery("SELECT * FROM docs" + (id == 0 ? "" : " WHERE id = " + id));
         boolean result = false;
@@ -33,5 +28,6 @@ public class User
         if (!result) System.out.println("No such document exists in the database.");
         return result;
     }
+
 
 }
