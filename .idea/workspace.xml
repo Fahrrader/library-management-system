@@ -3,26 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="095c16e8-c7c0-4af1-99f3-634cef1b5e21" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Administrator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AudioVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AudioVideo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Conn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Document.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Faculty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Faculty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Librarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Librarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/OrdinaryUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OrdinaryUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/build/Administrator.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/build/Administrator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/build/Conn.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/build/Conn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/build/Faculty.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/build/Faculty.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/build/Librarian.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/build/Librarian.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/build/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/build/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/build/OrdinaryUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/build/OrdinaryUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/build/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/build/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/build/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/build/User.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/src/build/" />
     <ignored path="$PROJECT_DIR$/out/test/library/" />
@@ -72,25 +53,111 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <file leaf-file-name="Administrator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Administrator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#connect#0;class#Administrator#0" />
+                <element signature="method#addUser#0;class#Administrator#0" />
+                <element signature="method#addDoc#0;class#Administrator#0" />
+                <element signature="method#remove#0;class#Administrator#0" />
+                <element signature="method#findHeldDocs#0;class#Administrator#0" />
+                <element signature="method#readUsers#0;class#Administrator#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/User.java">
+      <file leaf-file-name="JAVA/Administrator" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/Administrator">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>Administrator</OriginalElement>
+              <nodes>
+                <node x="14.0" y="839.0">Faculty</node>
+                <node x="217.0" y="255.0">AudioVideo</node>
+                <node x="238.0" y="606.0">Administrator</node>
+                <node x="216.75" y="505.0">User</node>
+                <node x="434.0" y="255.0">Book</node>
+                <node x="0.0" y="255.0">Article</node>
+                <node x="465.5" y="839.0">Librarian</node>
+                <node x="118.0" y="839.0">Student</node>
+                <node x="832.0" y="505.0">Conn</node>
+                <node x="217.0" y="0.0">Document</node>
+                <node x="0.0" y="913.0">Main</node>
+                <node x="0.0" y="661.0">OrdinaryUser</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Librarian" target="Administrator">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="91.5" />
+                </edge>
+                <edge source="Article" target="Document">
+                  <point x="0.0" y="-102.5" />
+                  <point x="98.5" y="230.0" />
+                  <point x="249.83333333333331" y="230.0" />
+                  <point x="-65.66666666666669" y="102.5" />
+                </edge>
+                <edge source="OrdinaryUser" target="User">
+                  <point x="0.0" y="-36.5" />
+                  <point x="109.0" y="581.0" />
+                  <point x="263.75" y="581.0" />
+                  <point x="-47.0" y="25.5" />
+                </edge>
+                <edge source="Administrator" target="User">
+                  <point x="0.0" y="-91.5" />
+                  <point x="512.5" y="581.0" />
+                  <point x="357.75" y="581.0" />
+                  <point x="47.0" y="25.5" />
+                </edge>
+                <edge source="Faculty" target="OrdinaryUser">
+                  <point x="0.0" y="-14.5" />
+                  <point x="56.0" y="814.0" />
+                  <point x="54.5" y="814.0" />
+                  <point x="-54.5" y="36.5" />
+                </edge>
+                <edge source="Student" target="OrdinaryUser">
+                  <point x="0.0" y="-14.5" />
+                  <point x="162.0" y="814.0" />
+                  <point x="163.5" y="814.0" />
+                  <point x="54.5" y="36.5" />
+                </edge>
+                <edge source="AudioVideo" target="Document">
+                  <point x="0.0" y="-102.5" />
+                  <point x="0.0" y="102.5" />
+                </edge>
+                <edge source="Book" target="Document">
+                  <point x="0.0" y="-102.5" />
+                  <point x="532.5" y="230.0" />
+                  <point x="381.1666666666667" y="230.0" />
+                  <point x="65.66666666666669" y="102.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.9" x="-43.44444444444446" y="528.6666666666667" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrdinaryUser.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/OrdinaryUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="204">
+              <caret line="86" column="1" lean-forward="true" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
               <folding>
-                <element signature="method#readDocs#0;class#User#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#bookDocument#0;class#OrdinaryUser#0" />
+                <element signature="method#returnDoc#0;class#OrdinaryUser#0" />
               </folding>
             </state>
           </provider>
@@ -132,10 +199,10 @@
         <option value="$PROJECT_DIR$/src/Document.java" />
         <option value="$PROJECT_DIR$/src/Faculty.java" />
         <option value="$PROJECT_DIR$/src/Librarian.java" />
-        <option value="$PROJECT_DIR$/src/OrdinaryUser.java" />
         <option value="$PROJECT_DIR$/src/Student.java" />
         <option value="$PROJECT_DIR$/src/User.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/OrdinaryUser.java" />
       </list>
     </option>
   </component>
@@ -146,16 +213,18 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="107" />
-    <option name="y" value="-9" />
-    <option name="width" value="1367" />
-    <option name="height" value="769" />
+    <option name="x" value="106" />
+    <option name="y" value="-10" />
+    <option name="width" value="1368" />
+    <option name="height" value="770" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,8 +241,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -279,11 +346,12 @@
       <updated>1520195037708</updated>
       <workItem from="1520195048543" duration="739000" />
       <workItem from="1520211760468" duration="2246000" />
+      <workItem from="1520217079597" duration="699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4802000" />
+    <option name="totallyTimeSpent" value="5810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -291,62 +359,33 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21652421" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16308725" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3295302" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21652421" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16442953" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32905984" />
-      <window_info anchor="bottom" id="Find" order="1" />
-    </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16105418" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21870047" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-    </layout-to-restore>
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="10" weight="0.32905984" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="9" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -354,7 +393,28 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Administrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#connect#0;class#Administrator#0" />
+            <element signature="method#addUser#0;class#Administrator#0" />
+            <element signature="method#addDoc#0;class#Administrator#0" />
+            <element signature="method#remove#0;class#Administrator#0" />
+            <element signature="method#findHeldDocs#0;class#Administrator#0" />
+            <element signature="method#readUsers#0;class#Administrator#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -620,51 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/Administrator">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>Administrator</OriginalElement>
-          <nodes>
-            <node x="" y="">Faculty</node>
-            <node x="" y="">AudioVideo</node>
-            <node x="" y="">Administrator</node>
-            <node x="" y="">User</node>
-            <node x="" y="">Book</node>
-            <node x="" y="">Article</node>
-            <node x="" y="">Librarian</node>
-            <node x="" y="">Document</node>
-            <node x="" y="">Student</node>
-            <node x="" y="">Conn</node>
-            <node x="" y="">Main</node>
-            <node x="" y="">OrdinaryUser</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="214.0" y="185.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Administrator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#connect#0;class#Administrator#0" />
-            <element signature="method#addUser#0;class#Administrator#0" />
-            <element signature="method#addDoc#0;class#Administrator#0" />
-            <element signature="method#remove#0;class#Administrator#0" />
-            <element signature="method#findHeldDocs#0;class#Administrator#0" />
-            <element signature="method#readUsers#0;class#Administrator#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Article.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -719,21 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OrdinaryUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="96" column="31" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="31" />
-          <folding>
-            <element signature="method#connect#0;class#OrdinaryUser#0" />
-            <element signature="method#bookDocument#0;class#OrdinaryUser#0" />
-            <element signature="method#returnDoc#0;class#OrdinaryUser#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Student.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -746,10 +746,120 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="102">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://JAVA/Administrator">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Administrator</OriginalElement>
+          <nodes>
+            <node x="14.0" y="839.0">Faculty</node>
+            <node x="217.0" y="255.0">AudioVideo</node>
+            <node x="238.0" y="606.0">Administrator</node>
+            <node x="216.75" y="505.0">User</node>
+            <node x="434.0" y="255.0">Book</node>
+            <node x="0.0" y="255.0">Article</node>
+            <node x="465.5" y="839.0">Librarian</node>
+            <node x="118.0" y="839.0">Student</node>
+            <node x="832.0" y="505.0">Conn</node>
+            <node x="217.0" y="0.0">Document</node>
+            <node x="0.0" y="913.0">Main</node>
+            <node x="0.0" y="661.0">OrdinaryUser</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Librarian" target="Administrator">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="91.5" />
+            </edge>
+            <edge source="Article" target="Document">
+              <point x="0.0" y="-102.5" />
+              <point x="98.5" y="230.0" />
+              <point x="249.83333333333331" y="230.0" />
+              <point x="-65.66666666666669" y="102.5" />
+            </edge>
+            <edge source="OrdinaryUser" target="User">
+              <point x="0.0" y="-36.5" />
+              <point x="109.0" y="581.0" />
+              <point x="263.75" y="581.0" />
+              <point x="-47.0" y="25.5" />
+            </edge>
+            <edge source="Administrator" target="User">
+              <point x="0.0" y="-91.5" />
+              <point x="512.5" y="581.0" />
+              <point x="357.75" y="581.0" />
+              <point x="47.0" y="25.5" />
+            </edge>
+            <edge source="Faculty" target="OrdinaryUser">
+              <point x="0.0" y="-14.5" />
+              <point x="56.0" y="814.0" />
+              <point x="54.5" y="814.0" />
+              <point x="-54.5" y="36.5" />
+            </edge>
+            <edge source="Student" target="OrdinaryUser">
+              <point x="0.0" y="-14.5" />
+              <point x="162.0" y="814.0" />
+              <point x="163.5" y="814.0" />
+              <point x="54.5" y="36.5" />
+            </edge>
+            <edge source="AudioVideo" target="Document">
+              <point x="0.0" y="-102.5" />
+              <point x="0.0" y="102.5" />
+            </edge>
+            <edge source="Book" target="Document">
+              <point x="0.0" y="-102.5" />
+              <point x="532.5" y="230.0" />
+              <point x="381.1666666666667" y="230.0" />
+              <point x="65.66666666666669" y="102.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9" x="-43.44444444444446" y="528.6666666666667" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Administrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#connect#0;class#Administrator#0" />
+            <element signature="method#addUser#0;class#Administrator#0" />
+            <element signature="method#addDoc#0;class#Administrator#0" />
+            <element signature="method#remove#0;class#Administrator#0" />
+            <element signature="method#findHeldDocs#0;class#Administrator#0" />
+            <element signature="method#readUsers#0;class#Administrator#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OrdinaryUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="86" column="1" lean-forward="true" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#bookDocument#0;class#OrdinaryUser#0" />
+            <element signature="method#returnDoc#0;class#OrdinaryUser#0" />
           </folding>
         </state>
       </provider>

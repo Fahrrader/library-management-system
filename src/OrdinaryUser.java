@@ -1,5 +1,3 @@
-import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.text.SimpleDateFormat;
@@ -7,17 +5,6 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class OrdinaryUser extends User {
-    private Connection connect() {
-        String url = "jdbc:sqlite:library.db";
-        Conn.conn = null;
-        try {
-            Conn.conn = DriverManager.getConnection(url);
-        } catch (SQLException e) {
-            System.out.println(e.getMessage());
-        }
-        return Conn.conn;
-    }
-
 
     public void bookDocument(int user, int doc) throws SQLException {
         Conn.resSet = Conn.query.executeQuery("SELECT * FROM users WHERE id = " + user);
