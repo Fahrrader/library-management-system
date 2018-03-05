@@ -1,7 +1,9 @@
 import java.sql.SQLException;
 
-public interface OrdinaryUser extends User
+public class OrdinaryUser extends User
 {
-    String returnDoc(int id) throws SQLException;
+    String returnDoc(int id) throws SQLException{
+        return null;
+    };
 
 }

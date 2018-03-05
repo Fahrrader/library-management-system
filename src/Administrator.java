@@ -1,11 +1,19 @@
 import java.sql.SQLException;
 
-public interface Administrator extends User{
-    String add(String name, int access, String phone) throws SQLException;
+public class Administrator extends User{
+    String add(String name, int access, String phone) throws SQLException{
+        return null;
+    }
 
-    String delete(int id) throws SQLException;
+    String delete(int id) throws SQLException{
+        return null;
+    }
 
-    String modify(int id) throws SQLException;
+    String modify(int id) throws SQLException{
+        return null;
+    }
 
-    String view() throws SQLException;
+    String view() throws SQLException{
+        return null;
+    }
 }

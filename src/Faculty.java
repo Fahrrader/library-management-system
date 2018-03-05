@@ -1,6 +1,6 @@
 import java.sql.*;
 
-public class Faculty implements OrdinaryUser{
+public class Faculty extends OrdinaryUser{
 
     public String returnDoc(int id) throws SQLException {
         return null;
