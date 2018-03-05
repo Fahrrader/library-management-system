@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="095c16e8-c7c0-4af1-99f3-634cef1b5e21" name="Default" comment="" />
 =======
     <list default="true" id="095c16e8-c7c0-4af1-99f3-634cef1b5e21" name="Default" comment="">
@@ -12,6 +13,14 @@
       <change beforePath="$PROJECT_DIR$/src/build/OrdinaryUser.class" afterPath="$PROJECT_DIR$/src/build/OrdinaryUser.class" />
     </list>
 >>>>>>> 51ecab043c0ef109567b232fb0b3c946728c86d8
+=======
+    <list default="true" id="095c16e8-c7c0-4af1-99f3-634cef1b5e21" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Support.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/build/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/build/Main.class" afterDir="false" />
+    </list>
+>>>>>>> parent of b79e332... fix bug
     <ignored path="$PROJECT_DIR$/src/build/" />
     <ignored path="$PROJECT_DIR$/out/test/library/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,9 +29,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/library_management_system$library.ic" NAME="library Coverage Results" MODIFIED="1520231110456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -105,8 +111,13 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/User.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="102">
               <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+=======
+            <state relative-caret-position="1319">
+              <caret line="105" column="49" lean-forward="true" selection-start-line="105" selection-start-column="49" selection-end-line="105" selection-end-column="49" />
+>>>>>>> parent of b79e332... fix bug
               <folding>
                 <marker date="1520230801796" expanded="true" signature="156:207" ph="SELECT * FRO... docs" />
               </folding>
@@ -390,6 +401,7 @@
 <<<<<<< HEAD
       <workItem from="1520195048543" duration="739000" />
       <workItem from="1520211760468" duration="2246000" />
+<<<<<<< HEAD
       <workItem from="1520217079597" duration="13458000" />
 =======
       <workItem from="1520195048543" duration="1041000" />
@@ -399,10 +411,14 @@
 =======
 >>>>>>> 51ecab043c0ef109567b232fb0b3c946728c86d8
 >>>>>>> cd062eabeead6f2351fc9e813e64a3698bd157b5
+=======
+      <workItem from="1520217079597" duration="12077000" />
+>>>>>>> parent of b79e332... fix bug
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="4276000" />
 =======
@@ -412,6 +428,9 @@
     <option name="totallyTimeSpent" value="1200000" />
 >>>>>>> 51ecab043c0ef109567b232fb0b3c946728c86d8
 >>>>>>> cd062eabeead6f2351fc9e813e64a3698bd157b5
+=======
+    <option name="totallyTimeSpent" value="17188000" />
+>>>>>>> parent of b79e332... fix bug
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -427,8 +446,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.3295302" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.6566951" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3295302" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24501425" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Database Console" order="10" weight="0.32905984" />
@@ -916,6 +934,7 @@
     <entry file="file://$PROJECT_DIR$/src/Support.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
           <folding>
@@ -926,6 +945,10 @@
 <<<<<<< HEAD
         <state relative-caret-position="9">
           <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+=======
+        <state relative-caret-position="1319">
+          <caret line="105" column="49" lean-forward="true" selection-start-line="105" selection-start-column="49" selection-end-line="105" selection-end-column="49" />
+>>>>>>> parent of b79e332... fix bug
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
