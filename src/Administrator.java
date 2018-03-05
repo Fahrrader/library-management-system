@@ -19,9 +19,9 @@ public class Administrator extends User {
         return conn;
     }
 
-    public void addUser(String name, int access, String phone) throws SQLException {
-        Conn.query.executeUpdate("INSERT INTO users (name, access, phone) " +
-                "VALUES ('" + name + "','" + access + "','" + phone + "')");
+    public void addUser(String name, int access, String password, String phone) throws SQLException {
+        Conn.query.executeUpdate("INSERT INTO users (name, access, password, phone) " +
+                "VALUES ('" + name + "','" + access + "','" + password + "','" + phone + "')");
 
         System.out.println("User added!");
     }

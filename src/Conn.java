@@ -21,6 +21,7 @@ public class Conn {
                 "'id' INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 "'name' TEXT NOT NULL, " +
                 "'access' INT NOT NULL, " +
+                "'password' TEXT NOT NULL, " +
                 "'phone' TEXT NOT NULL, " +
                 "'holding' TEXT DEFAULT '');");
         query.execute("CREATE TABLE IF NOT EXISTS 'docs' (" +
