@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
         Conn conn = new Conn();
         Librarian lib = new Librarian();
+        Student st = new Student();
 
         Conn.access();
         Conn.createDB();
@@ -14,12 +15,7 @@ public class Main {
         String input;
         boolean run = true;
 
-        //////////////////////  TEST ///////////////////
-        lib.addDoc(1,1,1,"chto-to", "kto-to", "hz", "hz1", 1, "any", "12", 1, 123, "zopa", "nax");
-        lib.addUser("Vasya", 2, "123112");
 
-
-        ////////////////////////////////////////////////
 
 
 
@@ -37,7 +33,7 @@ public class Main {
                     break;
                 case "check":
                     input = in.next();
-                    conn.bookDocument(Integer.parseInt(input), Integer.parseInt(in.next()));
+                    st.bookDocument(Integer.parseInt(input), Integer.parseInt(in.next()));
                     break;
                 case "calculate":
                     input = in.next();
@@ -47,10 +43,10 @@ public class Main {
                     input = in.next();
                     if (input.equals("u")) {
                         input = in.next();
-                        conn.readUsers(Integer.parseInt(input));
+                        lib.readUsers(Integer.parseInt(input));
                     } else if (input.equals("d")) {
                         input = in.next();
-                        conn.readDocs(Integer.parseInt(input));
+                        lib.readDocs(Integer.parseInt(input));
                     } else
                         System.out.println("Unrecognised command.");
                     break;

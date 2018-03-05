@@ -1,24 +1,18 @@
 import java.sql.*;
 
-public class Faculty implements User{
+public class Faculty implements OrdinaryUser{
 
-    public String returnDocument(int id) throws SQLException {
+    public String returnDoc(int id) throws SQLException {
         return null;
     }
 
-    public String takeDocument(int id) throws SQLException {
-        return null;
-    }
-
+    
     public String view() throws SQLException {
         return null;
     }
 
-    public String viewHeld() throws SQLException {
-        return null;
-    }
-
-    public String calculateHeld() throws SQLException {
-        return null;
+    
+    public boolean readDocs(int id) throws SQLException {
+        return false;
     }
 }
