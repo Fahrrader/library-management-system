@@ -1,9 +1,10 @@
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class Main {
-
-    public static void main(String[] args) throws SQLException, ClassNotFoundException {
+public class Main
+{
+    public static void main (String[] args) throws SQLException, ClassNotFoundException
+    {
         Librarian lib = new Librarian();
         Student st = new Student();
 
@@ -15,26 +16,35 @@ public class Main {
 
         String[] array = new String[3];
         boolean flag = true;
-        while (flag){
-            System.out.println("Please, enter your id: ");
+        while (flag)
+        {
+            System.out.print("Please, enter your ID: ");
             String id = in.next();
             System.out.println("Please, enter your password: ");
             String pw = in.next();
-            if (Support.findAccessLvl(Integer.parseInt(id), pw) != -1){
+            if (Support.findAccessLvl(Integer.parseInt(id), pw) != -1)
+            {
                 String access = String.valueOf(Support.findAccessLvl(Integer.parseInt(id), pw));
                 array[0]=id;
                 array[1]=pw;
                 array[2]=access;
                 flag = false;
+                System.out.println("Welcome, ID" + id + "!");
             }
+            else
+                System.out.println("User not recognised. Try again?");
+
         }
 
         boolean run = true;
         System.out.println("Enter a command - you can always try typing 'help':");
-        while (in.hasNextLine() && run) {
+        while (in.hasNextLine() && run)
+        {
             input = in.next();
-            if (Integer.parseInt(array[2]) == 1 || Integer.parseInt(array[2]) == 2){
-                switch (input) {
+            if (Integer.parseInt(array[2]) == 1 || Integer.parseInt(array[2]) == 2)
+            {
+                switch (input)
+                {
                     case "help":
                         System.out.println("### List of available commands:");
                         System.out.println("check 'book_id' -- User checks out the document.");
@@ -48,7 +58,8 @@ public class Main {
                         break;
                     case "see":
                         input = in.next();
-                        if (input.equals("d")) {
+                        if (input.equals("d"))
+                        {
                             input = in.next();
                             lib.readDocs(Integer.parseInt(input));
                         } else
@@ -65,8 +76,10 @@ public class Main {
                         System.out.println("Unrecognised command.");
                 }
             }
-            else {
-                switch (input) {
+            else
+                {
+                switch (input)
+                {
                     case "help":
                         System.out.println("### List of available commands:");
                         System.out.println("calculate 'user_id' -- see what books the User has.");
@@ -87,7 +100,8 @@ public class Main {
                         break;
                     case "see":
                         input = in.next();
-                        if (input.equals("u")) {
+                        if (input.equals("u"))
+                        {
                             input = in.next();
                             lib.readUsers(Integer.parseInt(input));
                         } else if (input.equals("d")) {
@@ -101,7 +115,8 @@ public class Main {
                         break;
                     case "add":
                         input = in.next();
-                        if (input.equals("u")) {
+                        if (input.equals("u"))
+                        {
                             System.out.println("Please, enter user's name:");
                             String name = in.next();
                             System.out.println("Please, enter access lvl of this user:");
@@ -112,8 +127,9 @@ public class Main {
                             System.out.println("Please, enter phone number of this user:");
                             String phone = in.next();
                             lib.addUser(name, lvl, password, phone);
-
-                        } else if (input.equals("d")) {
+                        }
+                        else if (input.equals("d"))
+                        {
                             System.out.println("Please, enter type of doc:");
                             System.out.println("Note: 1 = book, 2 = article, 3 = AV material.");
                             int type = in.nextInt();
@@ -147,28 +163,35 @@ public class Main {
                             String tags = in.next();
 
                             lib.addDoc(type,copy,reference,name,author,publisher,journal,edition,editor,released,bestseller,prise,location,tags);
-
                         } else
                             System.out.println("Unrecognised command.");
                         break;
                     case "remove":
                         input = in.next();
-                        if (input.equals("u")) {
+                        if (input.equals("u"))
+                        {
                             input = in.next();
                             lib.remove("users", Integer.parseInt(input));
-                        } else if (input.equals("d")) {
+                        }
+                        else if (input.equals("d"))
+                        {
                             input = in.next();
                             lib.remove("docs", Integer.parseInt(input));
-                        } else
+                        }
+                        else
                             System.out.println("Unrecognised command.");
                         break;
                     case "modify":  //ПЕРЕДЕЛАТЬ
                         input = in.next();
-                        if (input.equals("u")) {
+                        if (input.equals("u"))
+                        {
                             System.out.println("НАДО ДОДЕЛАТЬ");
-                        } else if (input.equals("d")) {
+                        }
+                        else if (input.equals("d"))
+                        {
                             System.out.println("НАДО ДОДЕЛАТЬ");
-                        } else
+                        }
+                        else
                             System.out.println("Unrecognised command.");
                         break;
                     case "quit":

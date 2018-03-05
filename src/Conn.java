@@ -19,11 +19,71 @@ public class Conn {
         query = conn.createStatement();
         query.execute("CREATE TABLE IF NOT EXISTS 'users' (" +
                 "'id' INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                "'password' TEXT NOT NULL, " +
                 "'name' TEXT NOT NULL, " +
                 "'access' INT NOT NULL, " +
-                "'password' TEXT NOT NULL, " +
                 "'phone' TEXT NOT NULL, " +
                 "'holding' TEXT DEFAULT '');");
+        query.execute("CREATE TABLE IF NOT EXISTS 'books' (" +
+                "'id' INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                "'type' INT NOT NULL, " +
+                "'copy' INT NOT NULL, " +
+                // ----------------------
+                "'reference' BIT DEFAULT 0, " +
+                "'name' TEXT NOT NULL, " +
+                "'author' TEXT NOT NULL, " +
+                "'publisher' TEXT, " +
+                "'edition' INT, " +
+                "'released' DATE, " +
+                "'bestseller' BIT DEFAULT 0, " +
+                // ----------------------
+                "'price' INT NOT NULL, " +
+                "'located' TEXT NOT NULL, " +
+                "'tags' TEXT DEFAULT '', " +
+                "'taken_by' INTEGER, " +
+                "'taken_when' DATE, " +
+                "'due_when' DATE, " +
+                "FOREIGN KEY ('taken_by') REFERENCES 'users'('id'), " +
+                "CHECK (price>=0));");
+        query.execute("CREATE TABLE IF NOT EXISTS 'journal_articles' (" +
+                "'id' INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                "'type' INT NOT NULL, " +
+                "'copy' INT NOT NULL, " +
+                // -----------------------
+                "'reference' BIT DEFAULT 0, " +
+                "'name' TEXT NOT NULL, " +
+                "'author' TEXT NOT NULL, " +
+                "'journal' TEXT, " +
+                "'publisher' TEXT, " +
+                "'issue' INT, " +
+                "'editor' TEXT, " +
+                "'released' DATE, " +
+                // ------------------------
+                "'price' INT NOT NULL, " +
+                "'located' TEXT NOT NULL, " +
+                "'tags' TEXT DEFAULT '', " +
+                "'taken_by' INTEGER, " +
+                "'taken_when' DATE, " +
+                "'due_when' DATE, " +
+                "FOREIGN KEY ('taken_by') REFERENCES 'users'('id'), " +
+                "CHECK (price>=0));");
+        query.execute("CREATE TABLE IF NOT EXISTS 'a_v_materials' (" +
+                "'id' INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                "'type' INT NOT NULL, " +
+                "'copy' INT NOT NULL, " +
+                // ----------------------
+                "'name' TEXT NOT NULL, " +
+                "'author' TEXT NOT NULL, " +
+                "'bestseller' BIT DEFAULT 0, " +
+                // ----------------------
+                "'price' INT NOT NULL, " +
+                "'located' TEXT NOT NULL, " +
+                "'tags' TEXT DEFAULT '', " +
+                "'taken_by' INTEGER, " +
+                "'taken_when' DATE, " +
+                "'due_when' DATE, " +
+                "FOREIGN KEY ('taken_by') REFERENCES 'users'('id'), " +
+                "CHECK (price>=0));");
         query.execute("CREATE TABLE IF NOT EXISTS 'docs' (" +
                 "'id' INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 "'type' INT NOT NULL, " +
