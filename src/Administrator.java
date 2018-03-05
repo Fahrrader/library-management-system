@@ -26,11 +26,26 @@ public class Administrator extends User {
         System.out.println("User added!");
     }
 
-    public void addDoc(int type, int copy, int reference, String name, String author, String publisher, String journal, int edition, String editor, String released, int bestseller, int price, String located, String tags) throws SQLException {
-        Conn.query.executeUpdate("INSERT INTO docs (type, copy, reference, name, author, publisher, journal, edition, editor, released, bestseller, price, located, tags) " +
-                "VALUES ('" + type + "','" + copy + "','" + reference + "','" + name + "','" + author + "','" + publisher + "','" + journal + "','" + edition + "','" + editor + "','" + released + "','" + bestseller + "','" + price + "','" + located + "','" + tags + "')");
-
-        System.out.println("Document added!");
+    public void addDocument(int type, String[] args, String[] common) throws SQLException {
+        boolean successful = false;
+        switch (type) {
+            case 1:
+                Book book = new Book();
+                successful = book.add(args, common);
+                break;
+            case 2:
+                Article article  = new Article();
+                successful = article.add(args, common);
+                break;
+            case 3:
+                AudioVideo avm = new AudioVideo();
+                successful = avm.add(args, common);
+                break;
+        }
+        if (successful)
+            System.out.println("Document added!");
+        else
+            System.out.println("Something went wrong...");
     }
 
     public void remove(String tab, int id) {

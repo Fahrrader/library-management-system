@@ -24,6 +24,7 @@ public class Conn {
                 "'access' INT NOT NULL, " +
                 "'phone' TEXT NOT NULL, " +
                 "'holding' TEXT DEFAULT '');");
+
         query.execute("CREATE TABLE IF NOT EXISTS 'books' (" +
                 "'id' INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 "'type' INT NOT NULL, " +
@@ -45,6 +46,7 @@ public class Conn {
                 "'due_when' DATE, " +
                 "FOREIGN KEY ('taken_by') REFERENCES 'users'('id'), " +
                 "CHECK (price>=0));");
+
         query.execute("CREATE TABLE IF NOT EXISTS 'journal_articles' (" +
                 "'id' INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 "'type' INT NOT NULL, " +
@@ -58,6 +60,7 @@ public class Conn {
                 "'issue' INT, " +
                 "'editor' TEXT, " +
                 "'released' DATE, " +
+                "'bestseller' BIT DEFAULT 0, " +
                 // ------------------------
                 "'price' INT NOT NULL, " +
                 "'located' TEXT NOT NULL, " +
@@ -67,6 +70,7 @@ public class Conn {
                 "'due_when' DATE, " +
                 "FOREIGN KEY ('taken_by') REFERENCES 'users'('id'), " +
                 "CHECK (price>=0));");
+
         query.execute("CREATE TABLE IF NOT EXISTS 'a_v_materials' (" +
                 "'id' INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 "'type' INT NOT NULL, " +
@@ -74,7 +78,6 @@ public class Conn {
                 // ----------------------
                 "'name' TEXT NOT NULL, " +
                 "'author' TEXT NOT NULL, " +
-                "'bestseller' BIT DEFAULT 0, " +
                 // ----------------------
                 "'price' INT NOT NULL, " +
                 "'located' TEXT NOT NULL, " +

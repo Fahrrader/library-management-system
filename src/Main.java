@@ -5,8 +5,7 @@ public class Main
 {
     public static void main (String[] args) throws SQLException, ClassNotFoundException
     {
-        Librarian lib = new Librarian();
-        Student st = new Student();
+
 
         Conn.access();
         Conn.createDB();
@@ -14,26 +13,22 @@ public class Main
         Scanner in = new Scanner(System.in);
         String input;
 
-        String[] array = new String[3];
         boolean flag = true;
         while (flag)
         {
             System.out.print("Please, enter your ID: ");
-            String id = in.next();
+            int id = in.nextInt();
             System.out.println("Please, enter your password: ");
             String pw = in.next();
-            if (Support.findAccessLvl(Integer.parseInt(id), pw) != -1)
+            if (Support.findAccessLvl(id, pw) != -1)
             {
-                String access = String.valueOf(Support.findAccessLvl(Integer.parseInt(id), pw));
-                array[0]=id;
-                array[1]=pw;
-                array[2]=access;
-                flag = false;
+                int access = Support.findAccessLvl(id, pw);
+                user = new CurrentUser(id, pw, access);
                 System.out.println("Welcome, ID" + id + "!");
+                flag = false;
             }
             else
                 System.out.println("User not recognised. Try again?");
-
         }
 
         boolean run = true;
@@ -41,43 +36,39 @@ public class Main
         while (in.hasNextLine() && run)
         {
             input = in.next();
-            if (Integer.parseInt(array[2]) == 1 || Integer.parseInt(array[2]) == 2)
+            if (user.access > 0)
             {
                 switch (input)
                 {
                     case "help":
                         System.out.println("### List of available commands:");
-                        System.out.println("check 'book_id' -- User checks out the document.");
-                        System.out.println("see d 'doc_id' -- see the Document card. Replace 'doc_id' with 0 to to print the whole lot.");
-                        System.out.println("return 'doc_id' -- НАДО ДОДЕЛАТЬ");
+                        System.out.println("see 'doc_id' -- see the Document card. Replace 'doc_id' with 0 to to print the whole lot.");
+                        System.out.println("check 'doc_id' -- book a document.");
+                        System.out.println("return 'doc_id' -- return a document you hold.");
                         System.out.println("quit -- exit the application.");
                         break;
                     case "check":
                         input = in.next();
-                        st.bookDocument(Integer.parseInt(array[0]), Integer.parseInt(input));
+                        user.bookDocument(Integer.parseInt(input));
+                        break;
+                    case "return":
+                        input = in.next();
+                        user.returnDocument(Integer.parseInt(input));
                         break;
                     case "see":
                         input = in.next();
-                        if (input.equals("d"))
-                        {
-                            input = in.next();
-                            lib.readDocs(Integer.parseInt(input));
-                        } else
-                            System.out.println("Unrecognised command.");
+                        lib.readDocs(Integer.parseInt(input));
                         break;
                     case "quit":
                         System.out.println("Exiting the application...");
                         run = false;
-                        break;
-                    case "return":
-                        System.out.println("НАДО ДОДЕЛАТЬ");
                         break;
                     default:
                         System.out.println("Unrecognised command.");
                 }
             }
             else
-                {
+            {
                 switch (input)
                 {
                     case "help":
@@ -85,13 +76,12 @@ public class Main
                         System.out.println("calculate 'user_id' -- see what books the User has.");
                         System.out.println("see u 'user_id' -- see the User card. Replace 'user_id' with 0 to print the whole lot.");
                         System.out.println("see d 'doc_id' -- see the Document card. Replace 'doc_id' with 0 to to print the whole lot.");
-                        System.out.println("return 'doc_id' -- НАДО ДОДЕЛАТЬ");
-                        System.out.println("add u -- allows you to add user");
-                        System.out.println("add d -- allows you to add doc");
-                        System.out.println("remove u 'user_id -- remove user");
-                        System.out.println("remove d 'doc_id -- remove doc");
-                        System.out.println("modify u 'user_id' -- allows you to modify user");
-                        System.out.println("modify d 'doc_id' -- allows you to modify doc");
+                        System.out.println("add u -- add user to the library.");
+                        System.out.println("add d -- add document to the library.");
+                        System.out.println("remove u 'user_id -- remove user from the library.");
+                        System.out.println("remove d 'doc_id -- remove document from the library.");
+                        System.out.println("modify u 'user_id' -- modify User card.");
+                        System.out.println("modify d 'doc_id' -- modify Document card.");
                         System.out.println("quit -- exit the application.");
                         break;
                     case "calculate":
@@ -104,14 +94,14 @@ public class Main
                         {
                             input = in.next();
                             lib.readUsers(Integer.parseInt(input));
-                        } else if (input.equals("d")) {
+                        }
+                        else if (input.equals("d"))
+                        {
                             input = in.next();
                             lib.readDocs(Integer.parseInt(input));
-                        } else
+                        }
+                        else
                             System.out.println("Unrecognised command.");
-                        break;
-                    case "return":
-                        System.out.println("НАДО ДОДЕЛАТЬ");
                         break;
                     case "add":
                         input = in.next();
@@ -131,38 +121,38 @@ public class Main
                         else if (input.equals("d"))
                         {
                             System.out.println("Please, enter type of doc:");
-                            System.out.println("Note: 1 = book, 2 = article, 3 = AV material.");
+                            System.out.println("Note: 1 = book, 2 = journal article, 3 = AV material.");
                             int type = in.nextInt();
-                            System.out.println("How many copies you want to add:");
+                            System.out.println("How many copies is to add:");
                             int copy = in.nextInt();
                             System.out.println("Is this doc reference:");
                             System.out.println("Note: 1 = yes, 0 = no.");
                             int reference = in.nextInt();
-                            System.out.println("Please, enter name of this doc:");
+                            System.out.println("Title:");
                             String name = in.next();
-                            System.out.println("Please, enter name of author of this doc:");
+                            System.out.println("Author:");
                             String author = in.next();
-                            System.out.println("Please, enter name of publisher of this doc:");
+                            System.out.println("Name of publisher:");
                             String publisher = in.next();
-                            System.out.println("ФАРХАД, ЧТО ТАКОЕ JOURNAL?:");
+                            System.out.println("Name of the journal:");
                             String journal = in.next();
-                            System.out.println("Please, edition of this doc:");
+                            System.out.println("Number of the edition:");
                             int edition = in.nextInt();
-                            System.out.println("Please, enter name of editor of this doc:");
+                            System.out.println("Name of the editor:");
                             String editor = in.next();
-                            System.out.println("Please, enter date of released of this doc:");
+                            System.out.println("When it was released:");
                             String released = in.next();
-                            System.out.println("Is this doc bestseller:");
+                            System.out.println("Is it bestseller:");
                             System.out.println("Note: 1 = yes, 0 = no.");
                             int bestseller = in.nextInt();
-                            System.out.println("Please, enter the prise of one copy of this doc (in rubles):");
-                            int prise = in.nextInt();
-                            System.out.println("Please, enter destination of doc:");
+                            System.out.println("Enter the price of the document (in rubles):");
+                            int price = in.nextInt();
+                            /*System.out.println("Please, enter destination of doc:");
                             String location = in.next();
                             System.out.println("Add some tags for searching this doc");
-                            String tags = in.next();
+                            String tags = in.next();*/
 
-                            lib.addDoc(type,copy,reference,name,author,publisher,journal,edition,editor,released,bestseller,prise,location,tags);
+                            lib.addDoc(type,copy,reference,name,author,publisher,journal,edition,editor,released,bestseller,price,location,tags);
                         } else
                             System.out.println("Unrecognised command.");
                         break;
@@ -204,9 +194,6 @@ public class Main
             }
 
         }
-
         Conn.terminate();
     }
 }
-
-//Здесь
