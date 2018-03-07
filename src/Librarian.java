@@ -32,6 +32,7 @@ public class Librarian implements Administrator
         Conn.query.executeUpdate("INSERT INTO users (type, name, address, phone, password) " +
                 "VALUES ('" + args[0] + "','" + args[1] + "','" + args[2] + "','" + args[2] + "','" + args[3] + "')");
         System.out.println("User added!");
+        Conn.addEntryToHistory(id, "ID" + id + " successfully added a new user");
         return true;
     }
 
@@ -55,6 +56,7 @@ public class Librarian implements Administrator
         }
         Conn.query.executeQuery("DELETE FROM users WHERE id = " + user_id);
         System.out.println("User is no longer in the system.");
+        Conn.addEntryToHistory(id, "ID" + id + " successfully deleted user ID" + user_id);
         return true;
     }
 

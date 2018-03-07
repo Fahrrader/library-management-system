@@ -24,6 +24,7 @@ public class Book implements Document
                 + common[0] + "','" + common[1] + "','" + common[2] + "')");
         Conn.resSet = Conn.query.executeQuery("SELECT max(id) FROM books");
         id = Conn.resSet.getInt("id");
+        Conn.addEntryToHistory(id, "ID1-" + id + " was added to the system");
         return true;
     }
 
@@ -32,6 +33,7 @@ public class Book implements Document
         if (Conn.query.executeQuery("SELECT taken_by FROM books WHERE id = " + id).getString("taken_by") != null)
             return false;
         Conn.query.executeQuery("DELETE FROM books WHERE id = " + id);
+        Conn.addEntryToHistory(id, "ID1-" + id + " was removed from the system");
         return true;
     }
 
@@ -44,6 +46,7 @@ public class Book implements Document
                 + "SET name = " + args[0] + ", author = " + args[1] + ", publisher = " + args[2] + ", edition = " + args[3] + ", released = " + args[4] + ", reference = " + args[5] + ", bestseller = " + args[6]
                 + ", price = " + common[0] + ", located = " + common[1] + ", tags = " + common[2]
                 + " WHERE id = " + id);
+        Conn.addEntryToHistory(id, "ID1-" + id + " was modified");
         return true;
     }
 
@@ -55,6 +58,7 @@ public class Book implements Document
         if (Conn.resSet.getString("taken_by") == null || Conn.resSet.getString("taken_by").equals(""))
             return 0;
         Conn.query.executeQuery("UPDATE books SET taken_by = NULL WHERE id = " + id);
+        Conn.addEntryToHistory(id, "ID1-" + id + " was returned");
         return 1;
     }
 
@@ -79,6 +83,7 @@ public class Book implements Document
         else if (Conn.resSet.getInt("bestseller") == 1) dueTime += "'+14 day'";
         dueTime += ")";
         Conn.query.executeQuery("UPDATE books SET due_when = " + dueTime + " WHERE id = " + id);
+        Conn.addEntryToHistory(id, "ID1-" + id + " was checked out");
         return 1;
     }
 

@@ -19,13 +19,14 @@ public class Main
             String[] newUser = {"0", "admin", "...", "...", "1234"};
             librarian.addUser(newUser);
             librarian = new Librarian(1);
+            Conn.addEntryToHistory(1, "A librarian entered the empty library.");
         }
 
         while (!logged)
         {
             System.out.print("Please, enter your ID: ");
             int id = in.nextInt();
-            System.out.println("Please, enter your password: ");
+            System.out.print("Please, enter your password: ");
             String pw = in.next();
             int access = Conn.requestLogIn(id, pw);
             logged = access != -1;
@@ -110,6 +111,9 @@ public class Main
                     case "calculate":
                         input = in.next();
                         librarian.viewHeld(Integer.parseInt(input));
+                        break;
+                    case "o":
+                        Conn.addEntryToHistory(1, "my message my message");
                         break;
                     case "see":
                         input = in.next();

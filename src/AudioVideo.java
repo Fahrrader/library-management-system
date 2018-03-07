@@ -23,6 +23,7 @@ public class AudioVideo implements Document
                 + common[0] + "','" + common[1] + "','" + common[2] + "')");
         Conn.resSet = Conn.query.executeQuery("SELECT max(id) FROM a_v_materials");
         id = Conn.resSet.getInt("id");
+        Conn.addEntryToHistory(id, "ID3-" + id + " was added to the system");
         return true;
     }
 
@@ -31,6 +32,7 @@ public class AudioVideo implements Document
         if (Conn.query.executeQuery("SELECT taken_by FROM a_v_materials WHERE id = " + id).getString("taken_by") != null)
             return false;
         Conn.query.executeQuery("DELETE FROM a_v_materials WHERE id = " + id);
+        Conn.addEntryToHistory(id, "ID3-" + id + " was removed from the system");
         return true;
     }
 
@@ -43,6 +45,7 @@ public class AudioVideo implements Document
                 + "SET name = " + args[0] + ", author = " + args[1] // -type, copy
                 + ", price = " + common[0] + ", located = " + common[1] + ", tags = " + common[2]
                 + " WHERE id = " + id);
+        Conn.addEntryToHistory(id, "ID3-" + id + " was modified");
         return true;
     }
 
@@ -54,6 +57,7 @@ public class AudioVideo implements Document
         if (Conn.resSet.getString("taken_by") == null || Conn.resSet.getString("taken_by").equals(""))
             return 0;
         Conn.query.executeQuery("UPDATE a_v_materials SET taken_by = NULL WHERE id = " + id);
+        Conn.addEntryToHistory(id, "ID3-" + id + " was returned");
         return 1;
     }
 
@@ -71,6 +75,7 @@ public class AudioVideo implements Document
         Conn.query.executeQuery("UPDATE a_v_materials SET taken_when = CURRENT_DATE WHERE id = " + id);
         String dueTime = "date('now','+14 day')";
         Conn.query.executeQuery("UPDATE a_v_materials SET due_when = " + dueTime + " WHERE id = " + id);
+        Conn.addEntryToHistory(id, "ID3-" + id + " was checked out");
         return 1;
     }
 

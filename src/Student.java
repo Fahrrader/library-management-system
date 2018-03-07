@@ -66,6 +66,7 @@ public class Student implements Patron
         ps.executeUpdate();
 
         System.out.println("Document successfully checked out!");
+        Conn.addEntryToHistory(id, id + " successfully checked out document ID" + doc_type + "-" + doc_id);
         return true;
     }
 
@@ -114,6 +115,9 @@ public class Student implements Patron
         ps.setString(1, holding);
         ps.executeUpdate();
 
+
+        System.out.println("Document successfully returned!");
+        Conn.addEntryToHistory(id, "ID" + id + " successfully returned document ID" + doc_type + "-" + doc_id);
         return true;
     }
 

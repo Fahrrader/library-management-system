@@ -100,7 +100,7 @@ public class Conn {
 
     public static int requestLogIn (int id, String password) throws SQLException
     {
-        Conn.resSet = Conn.query.executeQuery("SELECT access, password FROM users WHERE id = " + id);
+        Conn.resSet = Conn.query.executeQuery("SELECT type, password FROM users WHERE id = " + id);
         if (!Conn.resSet.next())
             return -1;
 
@@ -110,9 +110,15 @@ public class Conn {
         return -1;
     }
 
-    public static void historyAddEntry (int key, String message)
+    public static void addEntryToHistory (int key, String message) throws SQLException
     {
+        String sql = "INSERT INTO history (key_figure, message, time) " +
+                "VALUES (?, ?, CURRENT_TIMESTAMP )";
 
+        PreparedStatement ps = Conn.conn.prepareStatement(sql);
+        ps.setInt(1, key);
+        ps.setString(2, message);
+        ps.executeUpdate();
     }
 
     public static Document getDocumentType (int type, int id) throws SQLException

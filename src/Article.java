@@ -23,6 +23,7 @@ public class Article implements Document
                 + common[0] + "','" + common[1] + "','" + common[2] + "')");
         Conn.resSet = Conn.query.executeQuery("SELECT max(id) FROM journal_articles");
         id = Conn.resSet.getInt("id");
+        Conn.addEntryToHistory(id, "ID2-" + id + " was added to the system");
         return true;
     }
 
@@ -31,6 +32,7 @@ public class Article implements Document
         if (Conn.query.executeQuery("SELECT taken_by FROM journal_articles WHERE id = " + id).getString("taken_by") != null)
             return false;
         Conn.query.executeQuery("DELETE FROM journal_articles WHERE id = " + id);
+        Conn.addEntryToHistory(id, "ID2-" + id + " was removed from the system");
         return true;
     }
 
@@ -43,6 +45,7 @@ public class Article implements Document
                 + "SET name = " + args[0] + ", author = " + args[1] + ", journal = " + args[2] + ", publisher = " + args[3] + ", issue = " + args[4] + ", editor = " + args[5] + ", reference = " + args[6]
                 + ", price = " + common[0] + ", located = " + common[1] + ", tags = " + common[2]
                 + " WHERE id = " + id);
+        Conn.addEntryToHistory(id, "ID2-" + id + " was modified");
         return true;
     }
 
@@ -54,6 +57,7 @@ public class Article implements Document
         if (Conn.resSet.getString("taken_by") == null || Conn.resSet.getString("taken_by").equals(""))
             return 0;
         Conn.query.executeQuery("UPDATE journal_articles SET taken_by = NULL WHERE id = " + id);
+        Conn.addEntryToHistory(id, "ID2-" + id + " was returned");
         return 1;
     }
 
@@ -73,6 +77,7 @@ public class Article implements Document
         Conn.query.executeQuery("UPDATE journal_articles SET taken_when = CURRENT_DATE WHERE id = " + id);
         String dueTime = "date('now','+14 day')";
         Conn.query.executeQuery("UPDATE journal_articles SET due_when = " + dueTime + " WHERE id = " + id);
+        Conn.addEntryToHistory(id, "ID2-" + id + " was checked out");
         return 1;
     }
 
