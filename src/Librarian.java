@@ -22,6 +22,11 @@ public class Librarian implements Administrator
         id = _id;
     }
 
+    public int getId()
+    {
+        return id;
+    }
+
     public boolean addUser(String args[]) throws SQLException
     {
         Conn.query.executeUpdate("INSERT INTO users (type, name, address, phone, password) " +

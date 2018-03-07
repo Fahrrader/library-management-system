@@ -2,6 +2,8 @@ import java.sql.SQLException;
 
 public interface Patron
 {
+    int getId();
+
     // add the document to user's 'holding'
     boolean checkDocument(int type, int id) throws SQLException;
 

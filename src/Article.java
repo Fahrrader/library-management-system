@@ -16,10 +16,10 @@ public class Article implements Document
 
     public boolean add(String[] args, String[] common) throws SQLException
     {
-        if (args.length != 9 || common.length != 3)
+        if (args.length != 8 || common.length != 3)
             return false;
-        Conn.query.executeUpdate("INSERT INTO journal_articles (type, copy, name, author, journal, publisher, issue, editor, released, reference, price, located, tags) " +
-                "VALUES ('" + 2 + "','" + args[0] + "','" + args[1] + "','" + args[2] + "','" + args[3] + "','" + args[4] + "','" + args[5] + "','" + args[6] + "','" + args[7] + "','" + args[8] + "','"
+        Conn.query.executeUpdate("INSERT INTO journal_articles (type, copy, name, author, journal, publisher, issue, editor, reference, price, located, tags) " +
+                "VALUES ('" + 2 + "','" + args[0] + "','" + args[1] + "','" + args[2] + "','" + args[3] + "','" + args[4] + "','" + args[6] + "','" + args[7] + "','" + args[8] + "','"
                 + common[0] + "','" + common[1] + "','" + common[2] + "')");
         Conn.resSet = Conn.query.executeQuery("SELECT max(id) FROM journal_articles");
         id = Conn.resSet.getInt("id");
@@ -36,11 +36,11 @@ public class Article implements Document
 
     public boolean modify(String[] args, String[] common) throws SQLException
     {
-        if (id == -1 || args.length != 8 || common.length != 3
+        if (id == -1 || args.length != 7 || common.length != 3
                 || Conn.query.executeQuery("SELECT taken_by FROM journal_articles WHERE id = " + id).getString("taken_by") != null)
             return false;
         Conn.query.executeUpdate("UPDATE journal_articles "
-                + "SET name = " + args[0] + ", author = " + args[1] + ", journal = " + args[2] + ", publisher = " + args[3] + ", issue = " + args[4] + ", editor = " + args[5] + ", released = " + args[6] + ", reference = " + args[7]
+                + "SET name = " + args[0] + ", author = " + args[1] + ", journal = " + args[2] + ", publisher = " + args[3] + ", issue = " + args[4] + ", editor = " + args[5] + ", reference = " + args[6]
                 + ", price = " + common[0] + ", located = " + common[1] + ", tags = " + common[2]
                 + " WHERE id = " + id);
         return true;

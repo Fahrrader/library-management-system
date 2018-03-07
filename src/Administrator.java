@@ -2,6 +2,8 @@ import java.sql.SQLException;
 
 public interface Administrator
 {
+    int getId();
+
     boolean addUser(String[] args) throws SQLException;
 
     boolean deleteUser(int id) throws SQLException;

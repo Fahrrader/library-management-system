@@ -59,9 +59,8 @@ public class Conn {
                 "'author' TEXT NOT NULL, " +
                 "'journal' TEXT, " +
                 "'publisher' TEXT, " +
-                "'issue' INT, " +
+                "'issue' DATE, " +
                 "'editor' TEXT, " +
-                "'released' DATE, " +
                 "'reference' BIT DEFAULT 0, " +
                 // ------------------------
                 "'price' INT NOT NULL, " +
@@ -95,33 +94,8 @@ public class Conn {
                 "'key_figure' INT, " +
                 "'message' TEXT NOT NULL, " +
                 "'time' TIMESTAMP NOT NULL);");
-        /*query.execute("CREATE TABLE IF NOT EXISTS 'docs' (" +
-                "'id' INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                "'type' INT NOT NULL, " +
-                "'copy' INT NOT NULL, " +
-                "'reference' BIT DEFAULT 0, " +
-                "'name' TEXT NOT NULL, " +
-                "'author' TEXT NOT NULL, " +
-                "'publisher' TEXT, " +
-                "'journal' TEXT, " +
-                "'edition' INT, " +
-                "'editor' TEXT, " +
-                "'released' DATE, " +
-                "'bestseller' BIT DEFAULT 0, " +
-                "'price' INT NOT NULL, " +
-                "'located' TEXT NOT NULL, " +
-                "'tags' TEXT DEFAULT '', " +
-                "'taken_by' INTEGER, " +
-                "'taken_when' DATE, " +
-                "'due_when' DATE, " +
-                "FOREIGN KEY ('taken_by') REFERENCES 'users'('id'), " +
-                "CHECK (price>=0));");*/
-        if (!Conn.query.executeQuery("SELECT * FROM users").next())
-        {
-            
-            return true;
-        }
-        return false;
+
+        return !Conn.query.executeQuery("SELECT * FROM users").next();
     }
 
     public static int requestLogIn (int id, String password) throws SQLException
@@ -132,7 +106,7 @@ public class Conn {
 
         String real_password = Conn.resSet.getString("password");
         if (password.equals(real_password))
-            return Conn.resSet.getInt("access");
+            return Conn.resSet.getInt("type");
         return -1;
     }
 

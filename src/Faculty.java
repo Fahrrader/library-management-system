@@ -12,6 +12,11 @@ public class Faculty implements Patron
         id = _id;
     }
 
+    public int getId()
+    {
+        return id;
+    }
+
     public boolean checkDocument(int doc_type, int doc_id) throws SQLException
     {
         Conn.resSet = Conn.query.executeQuery("SELECT copy, taken_by FROM " + Conn.getDocumentTable(doc_type) + " WHERE id = " + doc_id);
