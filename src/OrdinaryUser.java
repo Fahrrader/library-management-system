@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-public class OrdinaryUser extends User {
+public class OrdinaryUser {
 
     public void bookDocument(int user, int doc) throws SQLException {
         Conn.resSet = Conn.query.executeQuery("SELECT * FROM users WHERE id = " + user);

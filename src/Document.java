@@ -1,6 +1,7 @@
 import java.sql.SQLException;
 
-public interface Document {
+public interface Document
+{
     // add the newly created document to the table
     boolean add(String[] args, String[] common) throws SQLException;
 
@@ -9,10 +10,10 @@ public interface Document {
     boolean modify(String[] args, String[] common) throws SQLException;
 
     // return the document and return the status string (successful, no such document, etc.)
-    boolean returnDocument() throws SQLException;
+    int returnDocument() throws SQLException;
 
     // set the document to 'taken' and return the status string
-    boolean takeDocument(int id) throws SQLException;
+    int checkDocument(int id) throws SQLException;
 
     // see summary about the doc
     void view() throws SQLException;

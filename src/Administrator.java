@@ -1,110 +1,28 @@
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class Administrator extends User {
+public interface Administrator
+{
+    boolean addDocument(String[] args, String[] common) throws SQLException;
 
-    public static Connection conn;
+    boolean deleteDocument(int type, int id) throws SQLException;
 
+    boolean modifyDocument(String[] args, String[] common) throws SQLException;
 
-    private Connection connect() {
-        String url = "jdbc:sqlite:library.db";
-        conn = null;
-        try {
-            conn = DriverManager.getConnection(url);
-        } catch (SQLException e) {
-            System.out.println(e.getMessage());
-        }
-        return conn;
-    }
+    // add the newly created user to the table
+    boolean addUser(String[] args) throws SQLException;
 
-    public void addUser(String name, int access, String password, String phone) throws SQLException {
-        Conn.query.executeUpdate("INSERT INTO users (name, access, password, phone) " +
-                "VALUES ('" + name + "','" + access + "','" + password + "','" + phone + "')");
+    boolean deleteUser() throws SQLException;
 
-        System.out.println("User added!");
-    }
+    boolean modifyUser(String[] args) throws SQLException;
 
-    public void addDocument(int type, String[] args, String[] common) throws SQLException {
-        boolean successful = false;
-        switch (type) {
-            case 1:
-                Book book = new Book();
-                successful = book.add(args, common);
-                break;
-            case 2:
-                Article article  = new Article();
-                successful = article.add(args, common);
-                break;
-            case 3:
-                AudioVideo avm = new AudioVideo();
-                successful = avm.add(args, common);
-                break;
-        }
-        if (successful)
-            System.out.println("Document added!");
-        else
-            System.out.println("Something went wrong...");
-    }
+    // see summary about a user
+    void viewUser(int id) throws SQLException;
 
-    public void remove(String tab, int id) {
-        String sql = "DELETE FROM " + tab + " WHERE id = ?";
+    void viewDocument(int type, int id) throws SQLException;
 
-        try (Connection conn = this.connect();
-             PreparedStatement ps = conn.prepareStatement(sql)) {
+    // see IDs of the held documents of a user
+    int viewHeld(int id) throws SQLException;
 
-            ps.setInt(1, id);
-
-            ps.executeUpdate();
-
-            System.out.println("Item was removed.");
-        } catch (SQLException e) {
-            System.out.println("No such item exists.");
-        }
-    }
-
-    public void findHeldDocs(int id) throws SQLException {
-        Conn.resSet = Conn.query.executeQuery("SELECT id, name, holding FROM users WHERE id = " + id);
-        if (!Conn.resSet.next()) {
-            System.out.println("No such user exists.");
-            return;
-        }
-        String[] holding = Conn.resSet.getString("holding").split(" ");
-        System.out.print("ID" + Conn.resSet.getString("id") + " " + Conn.resSet.getString("name") + " currently holds ");
-        if (!holding[0].isEmpty()) System.out.print("ID(s) ");
-        for (int i = 0; i < holding.length - 1; i++) {
-            System.out.print(holding[i] + ",");
-        }
-        if (holding[0].isEmpty()) System.out.print("nothing");
-        System.out.println(holding[holding.length - 1] + ".");
-    }
-
-    public boolean readUsers(int id) throws SQLException {
-        Conn.resSet = Conn.query.executeQuery("SELECT * FROM users" + (id == 0 ? "" : " WHERE id = " + id));
-        boolean result = false;
-
-        while (Conn.resSet.next()) {
-            int i = Conn.resSet.getInt("id");
-            int lvl = Conn.resSet.getInt("access");
-            String name = Conn.resSet.getString("name");
-            String phone = Conn.resSet.getString("phone");
-            String holding = Conn.resSet.getString("holding");
-            System.out.print("ID" + i);
-            System.out.print(lvl == 0 ? " Librarian" : lvl == 1 ? " Faculty" : lvl == 2 ? " Student" : "");
-            System.out.print(" " + name);
-            System.out.print(", phone " + phone);
-            if (!holding.isEmpty()) System.out.print(", holds ID(s) " + holding);
-            System.out.println(".");
-            result = true;
-        }
-        if (!result) System.out.println("No such user exists in the database.");
-        return result;
-
-    }
-
-    String modify(int id) throws SQLException {
-        return null;
-    }
-
+    // return the total cost of the current fine of a user
+    int calculateFine() throws SQLException;
 }

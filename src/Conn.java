@@ -19,10 +19,11 @@ public class Conn {
         query = conn.createStatement();
         query.execute("CREATE TABLE IF NOT EXISTS 'users' (" +
                 "'id' INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                "'password' TEXT NOT NULL, " +
                 "'name' TEXT NOT NULL, " +
-                "'access' INT NOT NULL, " +
+                "'type' INT NOT NULL, " +
+                "'address' TEXT NOT NULL, " +
                 "'phone' TEXT NOT NULL, " +
+                "'password' TEXT NOT NULL, " +
                 "'holding' TEXT DEFAULT '');");
 
         query.execute("CREATE TABLE IF NOT EXISTS 'books' (" +
@@ -30,12 +31,12 @@ public class Conn {
                 "'type' INT NOT NULL, " +
                 "'copy' INT NOT NULL, " +
                 // ----------------------
-                "'reference' BIT DEFAULT 0, " +
                 "'name' TEXT NOT NULL, " +
                 "'author' TEXT NOT NULL, " +
                 "'publisher' TEXT, " +
                 "'edition' INT, " +
                 "'released' DATE, " +
+                "'reference' BIT DEFAULT 0, " +
                 "'bestseller' BIT DEFAULT 0, " +
                 // ----------------------
                 "'price' INT NOT NULL, " +
@@ -52,7 +53,6 @@ public class Conn {
                 "'type' INT NOT NULL, " +
                 "'copy' INT NOT NULL, " +
                 // -----------------------
-                "'reference' BIT DEFAULT 0, " +
                 "'name' TEXT NOT NULL, " +
                 "'author' TEXT NOT NULL, " +
                 "'journal' TEXT, " +
@@ -60,7 +60,7 @@ public class Conn {
                 "'issue' INT, " +
                 "'editor' TEXT, " +
                 "'released' DATE, " +
-                "'bestseller' BIT DEFAULT 0, " +
+                "'reference' BIT DEFAULT 0, " +
                 // ------------------------
                 "'price' INT NOT NULL, " +
                 "'located' TEXT NOT NULL, " +
@@ -87,7 +87,13 @@ public class Conn {
                 "'due_when' DATE, " +
                 "FOREIGN KEY ('taken_by') REFERENCES 'users'('id'), " +
                 "CHECK (price>=0));");
-        query.execute("CREATE TABLE IF NOT EXISTS 'docs' (" +
+
+        query.execute("CREATE TABLE IF NOT EXISTS 'history' (" +
+                "'id' INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                "'key_figure' INT, " +
+                "'message' TEXT NOT NULL, " +
+                "'time' TIMESTAMP NOT NULL);");
+        /*query.execute("CREATE TABLE IF NOT EXISTS 'docs' (" +
                 "'id' INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 "'type' INT NOT NULL, " +
                 "'copy' INT NOT NULL, " +
@@ -107,7 +113,7 @@ public class Conn {
                 "'taken_when' DATE, " +
                 "'due_when' DATE, " +
                 "FOREIGN KEY ('taken_by') REFERENCES 'users'('id'), " +
-                "CHECK (price>=0));");
+                "CHECK (price>=0));");*/
     }
 
     public static int requestLogIn (int id, String password) throws SQLException
@@ -122,8 +128,44 @@ public class Conn {
         return -1;
     }
 
+    public static void historyAddEntry (int key, String message)
+    {
+
+    }
+
+    public static Document getDocumentType (int type, int id) throws SQLException
+    {
+        switch (type)
+        {
+            case 1:
+                return new Book(id);
+            case 2:
+                return new Article(id);
+            case 3:
+                return new AudioVideo(id);
+            default:
+                return null;
+        }
+    }
+
+    public static String getDocumentTable (int type)
+    {
+        switch (type)
+        {
+            case 1:
+                return "books";
+            case 2:
+                return "journal_articles";
+            case 3:
+                return "a_v_materials";
+            default:
+                return "";
+        }
+    }
+
     // -------- Terminating access --------
-    public static void terminate() throws SQLException {
+    public static void terminate() throws SQLException
+    {
         if (query != null) query.close();
         if (conn != null) conn.close();
         if (resSet != null) resSet.close();
