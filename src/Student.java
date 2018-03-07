@@ -1,7 +1,7 @@
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class Student implements User
+public class Student implements Patron
 {
     private int id;
 

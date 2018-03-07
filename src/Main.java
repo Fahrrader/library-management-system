@@ -5,16 +5,13 @@ public class Main
 {
     public static void main (String[] args) throws SQLException, ClassNotFoundException
     {
-
-
         Conn.access();
-        Conn.createDB();
+        boolean logged = Conn.createDB();
 
         Scanner in = new Scanner(System.in);
         String input;
 
-        boolean flag = true;
-        while (flag)
+        while (!logged)
         {
             System.out.print("Please, enter your ID: ");
             int id = in.nextInt();
@@ -25,13 +22,14 @@ public class Main
             {
                 user = new CurrentUser(id, pw, access);
                 System.out.println("Welcome, ID" + id + "!");
-                flag = false;
+                logged = true;
             }
             else
                 System.out.println("User ID or password not recognised. Try again?");
         }
 
         boolean run = true;
+
         System.out.println("Enter a command - you can always try typing 'help':");
         while (in.hasNextLine() && run)
         {

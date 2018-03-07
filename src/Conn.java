@@ -5,6 +5,8 @@ public class Conn {
     public static Statement query;
     public static ResultSet resSet;
 
+    public static int docTypesNum = 3;
+
     // -------- ACCESSING DATABASE ---------
     public static void access() throws ClassNotFoundException, SQLException {
         conn = null;
@@ -15,7 +17,7 @@ public class Conn {
     }
 
     // -------- Creating tables --------
-    public static void createDB() throws SQLException {
+    public static boolean createDB() throws SQLException {
         query = conn.createStatement();
         query.execute("CREATE TABLE IF NOT EXISTS 'users' (" +
                 "'id' INTEGER PRIMARY KEY AUTOINCREMENT, " +
@@ -114,6 +116,12 @@ public class Conn {
                 "'due_when' DATE, " +
                 "FOREIGN KEY ('taken_by') REFERENCES 'users'('id'), " +
                 "CHECK (price>=0));");*/
+        if (!Conn.query.executeQuery("SELECT * FROM users").next())
+        {
+            
+            return true;
+        }
+        return false;
     }
 
     public static int requestLogIn (int id, String password) throws SQLException
@@ -158,6 +166,21 @@ public class Conn {
                 return "journal_articles";
             case 3:
                 return "a_v_materials";
+            default:
+                return "";
+        }
+    }
+
+    public static String getUserType (int type)
+    {
+        switch (type)
+        {
+            case 0:
+                return "Librarian";
+            case 1:
+                return "Faculty";
+            case 2:
+                return "Student";
             default:
                 return "";
         }
