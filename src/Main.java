@@ -11,6 +11,7 @@ public class Main
         Scanner in = new Scanner(System.in);
         String input;
         boolean run = true;
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64,10 +65,15 @@ public class Main
 =======
 
 >>>>>>> parent of eb94a7d... Я хз
+=======
+
+
+>>>>>>> parent of 16a0c30... System of login
         System.out.println("Enter a command - you can always try typing 'help':");
         while (in.hasNextLine() && run)
         {
             input = in.next();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             if (user.getId() != -1)
@@ -104,6 +110,8 @@ public class Main
 =======
 =======
 >>>>>>> parent of 16a0c30... System of login
+=======
+>>>>>>> parent of 16a0c30... System of login
             switch (input) {
                 case "help":
                     System.out.println("### List of available commands:");
@@ -131,6 +139,9 @@ public class Main
                         lib.readDocs(Integer.parseInt(input));
                     } else
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 16a0c30... System of login
+=======
 >>>>>>> parent of 16a0c30... System of login
 =======
 >>>>>>> parent of 16a0c30... System of login
@@ -143,6 +154,7 @@ public class Main
                 default:
                     System.out.println("Unrecognised command.");
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             else
@@ -414,6 +426,8 @@ public class Main
                 }
             }
 
+=======
+>>>>>>> parent of 16a0c30... System of login
 =======
 >>>>>>> parent of 16a0c30... System of login
 =======

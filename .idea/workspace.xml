@@ -12,8 +12,13 @@
       <change beforePath="$PROJECT_DIR$/src/build/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/build/Book.class" afterDir="false" />
 =======
     <list default="true" id="095c16e8-c7c0-4af1-99f3-634cef1b5e21" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 <<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/68888e0e-802b-41e5-896a-34dc7fd7c43b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/68888e0e-802b-41e5-896a-34dc7fd7c43b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> parent of 16a0c30... System of login
       <change beforePath="$PROJECT_DIR$/src/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Administrator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Conn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -69,6 +74,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             <state relative-caret-position="74">
@@ -173,6 +179,15 @@
                 <element signature="method#addDoc#0;class#Administrator#0" />
                 <element signature="method#remove#0;class#Administrator#0" />
                 <element signature="method#findHeldDocs#0;class#Administrator#0" />
+=======
+            <state relative-caret-position="102">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#connect#0;class#Administrator#0" />
+                <element signature="method#addDoc#0;class#Administrator#0" />
+                <element signature="method#remove#0;class#Administrator#0" />
+>>>>>>> parent of 16a0c30... System of login
                 <element signature="method#readUsers#0;class#Administrator#0" />
               </folding>
 >>>>>>> parent of 16a0c30... System of login
@@ -185,9 +200,12 @@
         <entry file="file://$PROJECT_DIR$/src/Article.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="510">
               <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
 =======
+=======
+>>>>>>> parent of 16a0c30... System of login
             <state relative-caret-position="133">
               <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
               <folding>
@@ -297,6 +315,7 @@
       </file>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="users" pinned="false" current-in-tab="false">
         <entry file="das://68888e0e-802b-41e5-896a-34dc7fd7c43b/schema/main/table/users">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -309,6 +328,8 @@
       <file leaf-file-name="AudioVideo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AudioVideo.java">
 =======
+=======
+>>>>>>> parent of 16a0c30... System of login
       <file leaf-file-name="OrdinaryUser.java" pinned="false" current-in-tab="false">
 =======
       <file leaf-file-name="OrdinaryUser.java" pinned="false" current-in-tab="true">
@@ -415,7 +436,13 @@
         <option value="$PROJECT_DIR$/src/Librarian.java" />
         <option value="$PROJECT_DIR$/src/Student.java" />
         <option value="$PROJECT_DIR$/src/User.java" />
+<<<<<<< HEAD
 >>>>>>> parent of eb94a7d... Я хз
+=======
+        <option value="$PROJECT_DIR$/src/OrdinaryUser.java" />
+        <option value="$PROJECT_DIR$/src/Conn.java" />
+        <option value="$PROJECT_DIR$/src/Administrator.java" />
+>>>>>>> parent of 16a0c30... System of login
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/OrdinaryUser.java" />
       </list>
@@ -428,9 +455,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
+=======
+>>>>>>> parent of 16a0c30... System of login
 =======
 >>>>>>> parent of 16a0c30... System of login
   <component name="ProjectFrameBounds" extendedState="6">
@@ -589,15 +619,20 @@
       <workItem from="1520195048543" duration="739000" />
       <workItem from="1520211760468" duration="2246000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1520217079597" duration="3217000" />
 >>>>>>> parent of 16a0c30... System of login
 =======
       <workItem from="1520217079597" duration="699000" />
 >>>>>>> parent of eb94a7d... Я хз
+=======
+      <workItem from="1520217079597" duration="3217000" />
+>>>>>>> parent of 16a0c30... System of login
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="15524000" />
@@ -607,6 +642,9 @@
 =======
     <option name="totallyTimeSpent" value="5810000" />
 >>>>>>> parent of eb94a7d... Я хз
+=======
+    <option name="totallyTimeSpent" value="8328000" />
+>>>>>>> parent of 16a0c30... System of login
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -639,6 +677,9 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.21652421" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
+<<<<<<< HEAD
+>>>>>>> parent of 16a0c30... System of login
+=======
 >>>>>>> parent of 16a0c30... System of login
       <window_info id="Designer" order="3" />
 <<<<<<< HEAD
@@ -702,6 +743,7 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Librarian.java</url>
@@ -743,6 +785,55 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+=======
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Conn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="method#access#0;class#Conn#0" />
+            <element signature="method#createDB#0;class#Conn#0" />
+            <element signature="method#terminate#0;class#Conn#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="method#readDocs#0;class#User#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Librarian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1008">
+          <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> parent of 16a0c30... System of login
     <entry file="file://$PROJECT_DIR$/src/Administrator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -935,6 +1026,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/DocumentType.java" />
     <entry file="file://$PROJECT_DIR$/src/OrdinaryUser.java" />
     <entry file="das://68888e0e-802b-41e5-896a-34dc7fd7c43b/schema/main/table/users">
@@ -943,6 +1035,20 @@
           <filtering enabled="true" />
         </state>
       </provider>
+=======
+    <entry file="file://$PROJECT_DIR$/src/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="method#readDocs#0;class#User#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> parent of 16a0c30... System of login
     </entry>
     <entry file="das://68888e0e-802b-41e5-896a-34dc7fd7c43b/schema/main/table/users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1189,6 +1295,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="das://68888e0e-802b-41e5-896a-34dc7fd7c43b/schema/main/table/books">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1207,6 +1314,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Conn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="method#access#0;class#Conn#0" />
+            <element signature="method#terminate#0;class#Conn#0" />
+          </folding>
+>>>>>>> parent of 16a0c30... System of login
         </state>
       </provider>
     </entry>
@@ -1224,6 +1341,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.sql/java/sql/SQLException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -1276,10 +1394,30 @@
             <element signature="method#access#0;class#Conn#0" />
             <element signature="method#terminate#0;class#Conn#0" />
 >>>>>>> parent of 16a0c30... System of login
+=======
+    <entry file="das://68888e0e-802b-41e5-896a-34dc7fd7c43b/schema/main/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Administrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#connect#0;class#Administrator#0" />
+            <element signature="method#addDoc#0;class#Administrator#0" />
+            <element signature="method#remove#0;class#Administrator#0" />
+            <element signature="method#readUsers#0;class#Administrator#0" />
+>>>>>>> parent of 16a0c30... System of login
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="uml://JAVA/Administrator">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1493,6 +1631,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="86" column="1" lean-forward="true" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="17" column="79" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
+>>>>>>> parent of 16a0c30... System of login
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#bookDocument#0;class#OrdinaryUser#0" />
