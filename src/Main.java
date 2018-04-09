@@ -10,7 +10,9 @@ public class Main
 
         Scanner in = new Scanner(System.in);
         String input;
+        boolean run = true;
 
+<<<<<<< HEAD
         Patron user = new Faculty(-1);
         Administrator librarian = new Librarian(-1);
 
@@ -51,10 +53,14 @@ public class Main
 
         boolean run = true;
 
+=======
+
+>>>>>>> parent of 16a0c30... System of login
         System.out.println("Enter a command - you can always try typing 'help':");
         while (in.hasNextLine() && run)
         {
             input = in.next();
+<<<<<<< HEAD
             if (user.getId() != -1)
             {
                 switch (input)
@@ -86,9 +92,44 @@ public class Main
                         run = false;
                         break;
                     default:
+=======
+            switch (input) {
+                case "help":
+                    System.out.println("### List of available commands:");
+                    System.out.println("check 'user_id' 'book_id' -- User checks out the document.");
+                    System.out.println("calculate 'user_id' -- see what books the User has.");
+                    System.out.println("see u 'user_id' -- see the User card. Replace 'user_id' with 0 to print the whole lot.");
+                    System.out.println("see d 'doc_id' -- see the Document card. Replace 'doc_id' with 0 to to print the whole lot.");
+                    System.out.println("quit -- exit the application.");
+                    break;
+                case "check":
+                    input = in.next();
+                    st.bookDocument(Integer.parseInt(input), Integer.parseInt(in.next()));
+                    break;
+                case "calculate":
+                    input = in.next();
+                    lib.findHeldDocs(Integer.parseInt(input));
+                    break;
+                case "see":
+                    input = in.next();
+                    if (input.equals("u")) {
+                        input = in.next();
+                        lib.readUsers(Integer.parseInt(input));
+                    } else if (input.equals("d")) {
+                        input = in.next();
+                        lib.readDocs(Integer.parseInt(input));
+                    } else
+>>>>>>> parent of 16a0c30... System of login
                         System.out.println("Unrecognised command.");
-                }
+                    break;
+                case "quit":
+                    System.out.println("Exiting the application...");
+                    run = false;
+                    break;
+                default:
+                    System.out.println("Unrecognised command.");
             }
+<<<<<<< HEAD
             else
             {
                 switch (input)
@@ -358,6 +399,8 @@ public class Main
                 }
             }
 
+=======
+>>>>>>> parent of 16a0c30... System of login
         }
         Conn.terminate();
     }
