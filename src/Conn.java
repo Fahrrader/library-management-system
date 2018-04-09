@@ -22,12 +22,12 @@ public class Conn {
         query.execute("CREATE TABLE IF NOT EXISTS 'users' (" +
                 "'id' INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 "'name' TEXT NOT NULL, " +
-<<<<<<< HEAD
+
                 "'type' INT NOT NULL, " +
                 "'address' TEXT NOT NULL, " +
-=======
+
                 "'access' INT NOT NULL, " +
->>>>>>> parent of eb94a7d... Я хз
+
                 "'phone' TEXT NOT NULL, " +
                 "'password' TEXT NOT NULL, " +
                 "'holding' TEXT DEFAULT '');");

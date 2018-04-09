@@ -11,10 +11,7 @@ public class Main
         Scanner in = new Scanner(System.in);
         String input;
         boolean run = true;
-<<<<<<< HEAD
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         Patron user = new Faculty(-1);
         Administrator librarian = new Librarian(-1);
 
@@ -55,27 +52,12 @@ public class Main
 
         boolean run = true;
 
-=======
 
-<<<<<<< HEAD
->>>>>>> parent of 16a0c30... System of login
-=======
-
->>>>>>> parent of 16a0c30... System of login
-=======
-
->>>>>>> parent of eb94a7d... Я хз
-=======
-
-
->>>>>>> parent of 16a0c30... System of login
         System.out.println("Enter a command - you can always try typing 'help':");
         while (in.hasNextLine() && run)
         {
             input = in.next();
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
             if (user.getId() != -1)
             {
                 switch (input)
@@ -107,11 +89,7 @@ public class Main
                         run = false;
                         break;
                     default:
-=======
-=======
->>>>>>> parent of 16a0c30... System of login
-=======
->>>>>>> parent of 16a0c30... System of login
+
             switch (input) {
                 case "help":
                     System.out.println("### List of available commands:");
@@ -138,13 +116,7 @@ public class Main
                         input = in.next();
                         lib.readDocs(Integer.parseInt(input));
                     } else
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 16a0c30... System of login
-=======
->>>>>>> parent of 16a0c30... System of login
-=======
->>>>>>> parent of 16a0c30... System of login
+
                         System.out.println("Unrecognised command.");
                     break;
                 case "quit":
@@ -154,9 +126,7 @@ public class Main
                 default:
                     System.out.println("Unrecognised command.");
             }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
             else
             {
                 switch (input)
@@ -426,12 +396,7 @@ public class Main
                 }
             }
 
-=======
->>>>>>> parent of 16a0c30... System of login
-=======
->>>>>>> parent of 16a0c30... System of login
-=======
->>>>>>> parent of 16a0c30... System of login
+
         }
         Conn.terminate();
     }

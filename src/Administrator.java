@@ -10,13 +10,9 @@ public interface Administrator
 
     boolean modifyUser(int id, String[] args) throws SQLException;
 
-<<<<<<< HEAD
+
     boolean addDocument(String[] args, String[] common) throws SQLException;
-=======
-    public void addUser(String name, int access, String phone) throws SQLException {
-        Conn.query.executeUpdate("INSERT INTO users (name, access, phone) " +
-                "VALUES ('" + name + "','" + access + "','" + phone + "')");
->>>>>>> parent of eb94a7d... Я хз
+
 
     boolean deleteDocument(int type, int id) throws SQLException;
 
