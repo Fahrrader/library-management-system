@@ -12,8 +12,8 @@
       <change beforePath="$PROJECT_DIR$/src/build/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/build/Book.class" afterDir="false" />
 =======
     <list default="true" id="095c16e8-c7c0-4af1-99f3-634cef1b5e21" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/68888e0e-802b-41e5-896a-34dc7fd7c43b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/68888e0e-802b-41e5-896a-34dc7fd7c43b.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Administrator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Conn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -21,6 +21,9 @@
       <change beforePath="$PROJECT_DIR$/src/build/Conn.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/build/Conn.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/build/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/build/Main.class" afterDir="false" />
 >>>>>>> parent of 16a0c30... System of login
+=======
+      <change beforePath="$PROJECT_DIR$/src/OrdinaryUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OrdinaryUser.java" afterDir="false" />
+>>>>>>> parent of eb94a7d... Я хз
     </list>
     <ignored path="$PROJECT_DIR$/src/build/" />
     <ignored path="$PROJECT_DIR$/out/test/library/" />
@@ -66,6 +69,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
             <state relative-caret-position="74">
               <caret line="356" selection-start-line="356" selection-end-line="356" />
@@ -158,11 +162,17 @@
 =======
             <state relative-caret-position="102">
               <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+=======
+            <state relative-caret-position="221">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+>>>>>>> parent of eb94a7d... Я хз
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#connect#0;class#Administrator#0" />
+                <element signature="method#addUser#0;class#Administrator#0" />
                 <element signature="method#addDoc#0;class#Administrator#0" />
                 <element signature="method#remove#0;class#Administrator#0" />
+                <element signature="method#findHeldDocs#0;class#Administrator#0" />
                 <element signature="method#readUsers#0;class#Administrator#0" />
               </folding>
 >>>>>>> parent of 16a0c30... System of login
@@ -170,6 +180,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Article.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Article.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -204,10 +215,87 @@
                 <element signature="imports" expanded="true" />
               </folding>
 >>>>>>> parent of 16a0c30... System of login
+=======
+      <file leaf-file-name="JAVA/Administrator" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/Administrator">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>Administrator</OriginalElement>
+              <nodes>
+                <node x="14.0" y="839.0">Faculty</node>
+                <node x="217.0" y="255.0">AudioVideo</node>
+                <node x="238.0" y="606.0">Administrator</node>
+                <node x="216.75" y="505.0">User</node>
+                <node x="434.0" y="255.0">Book</node>
+                <node x="0.0" y="255.0">Article</node>
+                <node x="465.5" y="839.0">Librarian</node>
+                <node x="118.0" y="839.0">Student</node>
+                <node x="832.0" y="505.0">Conn</node>
+                <node x="217.0" y="0.0">Document</node>
+                <node x="0.0" y="913.0">Main</node>
+                <node x="0.0" y="661.0">OrdinaryUser</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Librarian" target="Administrator">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="91.5" />
+                </edge>
+                <edge source="Article" target="Document">
+                  <point x="0.0" y="-102.5" />
+                  <point x="98.5" y="230.0" />
+                  <point x="249.83333333333331" y="230.0" />
+                  <point x="-65.66666666666669" y="102.5" />
+                </edge>
+                <edge source="OrdinaryUser" target="User">
+                  <point x="0.0" y="-36.5" />
+                  <point x="109.0" y="581.0" />
+                  <point x="263.75" y="581.0" />
+                  <point x="-47.0" y="25.5" />
+                </edge>
+                <edge source="Administrator" target="User">
+                  <point x="0.0" y="-91.5" />
+                  <point x="512.5" y="581.0" />
+                  <point x="357.75" y="581.0" />
+                  <point x="47.0" y="25.5" />
+                </edge>
+                <edge source="Faculty" target="OrdinaryUser">
+                  <point x="0.0" y="-14.5" />
+                  <point x="56.0" y="814.0" />
+                  <point x="54.5" y="814.0" />
+                  <point x="-54.5" y="36.5" />
+                </edge>
+                <edge source="Student" target="OrdinaryUser">
+                  <point x="0.0" y="-14.5" />
+                  <point x="162.0" y="814.0" />
+                  <point x="163.5" y="814.0" />
+                  <point x="54.5" y="36.5" />
+                </edge>
+                <edge source="AudioVideo" target="Document">
+                  <point x="0.0" y="-102.5" />
+                  <point x="0.0" y="102.5" />
+                </edge>
+                <edge source="Book" target="Document">
+                  <point x="0.0" y="-102.5" />
+                  <point x="532.5" y="230.0" />
+                  <point x="381.1666666666667" y="230.0" />
+                  <point x="65.66666666666669" y="102.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.9" x="-43.44444444444446" y="528.6666666666667" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+>>>>>>> parent of eb94a7d... Я хз
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="users" pinned="false" current-in-tab="false">
         <entry file="das://68888e0e-802b-41e5-896a-34dc7fd7c43b/schema/main/table/users">
@@ -222,9 +310,13 @@
         <entry file="file://$PROJECT_DIR$/src/AudioVideo.java">
 =======
       <file leaf-file-name="OrdinaryUser.java" pinned="false" current-in-tab="false">
+=======
+      <file leaf-file-name="OrdinaryUser.java" pinned="false" current-in-tab="true">
+>>>>>>> parent of eb94a7d... Я хз
         <entry file="file://$PROJECT_DIR$/src/OrdinaryUser.java">
 >>>>>>> parent of 16a0c30... System of login
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="442">
               <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
             </state>
@@ -239,6 +331,14 @@
               <folding>
                 <element signature="e#446#447#0" expanded="true" />
                 <element signature="e#470#471#0" expanded="true" />
+=======
+            <state relative-caret-position="204">
+              <caret line="86" column="1" lean-forward="true" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#bookDocument#0;class#OrdinaryUser#0" />
+                <element signature="method#returnDoc#0;class#OrdinaryUser#0" />
+>>>>>>> parent of eb94a7d... Я хз
               </folding>
             </state>
           </provider>
@@ -294,6 +394,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/Administrator.java" />
 <<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/VP.java" />
@@ -302,7 +403,21 @@
         <option value="$PROJECT_DIR$/src/Article.java" />
 =======
 >>>>>>> parent of 16a0c30... System of login
+=======
+        <option value="$PROJECT_DIR$/src/build/OrdinaryUser.java" />
+        <option value="$PROJECT_DIR$/src/Conn.java" />
+        <option value="$PROJECT_DIR$/src/Administrator.java" />
+        <option value="$PROJECT_DIR$/src/Article.java" />
+        <option value="$PROJECT_DIR$/src/AudioVideo.java" />
+        <option value="$PROJECT_DIR$/src/Book.java" />
+        <option value="$PROJECT_DIR$/src/Document.java" />
+        <option value="$PROJECT_DIR$/src/Faculty.java" />
+        <option value="$PROJECT_DIR$/src/Librarian.java" />
+        <option value="$PROJECT_DIR$/src/Student.java" />
+        <option value="$PROJECT_DIR$/src/User.java" />
+>>>>>>> parent of eb94a7d... Я хз
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/OrdinaryUser.java" />
       </list>
     </option>
   </component>
@@ -473,17 +588,25 @@
       <updated>1520195037708</updated>
       <workItem from="1520195048543" duration="739000" />
       <workItem from="1520211760468" duration="2246000" />
+<<<<<<< HEAD
       <workItem from="1520217079597" duration="3217000" />
 >>>>>>> parent of 16a0c30... System of login
+=======
+      <workItem from="1520217079597" duration="699000" />
+>>>>>>> parent of eb94a7d... Я хз
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="15524000" />
 =======
     <option name="totallyTimeSpent" value="8328000" />
 >>>>>>> parent of 16a0c30... System of login
+=======
+    <option name="totallyTimeSpent" value="5810000" />
+>>>>>>> parent of eb94a7d... Я хз
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -491,7 +614,10 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4986577" weight="0.32905984" />
+=======
+>>>>>>> parent of eb94a7d... Я хз
       <window_info anchor="right" id="Palette&#9;" order="8" />
 <<<<<<< HEAD
       <window_info id="Image Layers" order="6" />
@@ -515,8 +641,13 @@
       <window_info id="Capture Tool" order="6" />
 >>>>>>> parent of 16a0c30... System of login
       <window_info id="Designer" order="3" />
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18657719" />
       <window_info anchor="right" id="Database" order="5" visible="true" weight="0.22348994" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16442953" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3295302" />
+>>>>>>> parent of eb94a7d... Я хз
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -530,6 +661,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="10" weight="0.32905984" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="9" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -611,6 +743,138 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Administrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#connect#0;class#Administrator#0" />
+            <element signature="method#addUser#0;class#Administrator#0" />
+            <element signature="method#addDoc#0;class#Administrator#0" />
+            <element signature="method#remove#0;class#Administrator#0" />
+            <element signature="method#findHeldDocs#0;class#Administrator#0" />
+            <element signature="method#readUsers#0;class#Administrator#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Conn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="102" column="38" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
+          <folding>
+            <element signature="method#access#0;class#Conn#0" />
+            <element signature="method#createDB#0;class#Conn#0" />
+            <element signature="method#terminate#0;class#Conn#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Administrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#connect#0;class#Administrator#0" />
+            <element signature="method#addUser#0;class#Administrator#0" />
+            <element signature="method#addDoc#0;class#Administrator#0" />
+            <element signature="method#remove#0;class#Administrator#0" />
+            <element signature="method#findHeldDocs#0;class#Administrator#0" />
+            <element signature="method#readUsers#0;class#Administrator#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Librarian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="method#readDocs#0;class#User#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="method#readDocs#0;class#User#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://68888e0e-802b-41e5-896a-34dc7fd7c43b/schema/main/table/docs">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://68888e0e-802b-41e5-896a-34dc7fd7c43b/schema/main/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="101" lean-forward="true" selection-start-line="27" selection-start-column="101" selection-end-line="27" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Conn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -757,10 +1021,29 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="das://68888e0e-802b-41e5-896a-34dc7fd7c43b/schema/main/table/users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Conn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="method#access#0;class#Conn#0" />
+            <element signature="method#createDB#0;class#Conn#0" />
+            <element signature="method#terminate#0;class#Conn#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+>>>>>>> parent of eb94a7d... Я хз
         </state>
       </provider>
     </entry>
@@ -794,6 +1077,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -808,10 +1092,19 @@
           <folding>
             <element signature="e#178#179#0" expanded="true" />
             <element signature="e#202#203#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> parent of eb94a7d... Я хз
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="das://68888e0e-802b-41e5-896a-34dc7fd7c43b/schema/main/table/docs">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1096,26 +1389,114 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://JAVA/Administrator">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Administrator</OriginalElement>
+          <nodes>
+            <node x="14.0" y="839.0">Faculty</node>
+            <node x="217.0" y="255.0">AudioVideo</node>
+            <node x="238.0" y="606.0">Administrator</node>
+            <node x="216.75" y="505.0">User</node>
+            <node x="434.0" y="255.0">Book</node>
+            <node x="0.0" y="255.0">Article</node>
+            <node x="465.5" y="839.0">Librarian</node>
+            <node x="118.0" y="839.0">Student</node>
+            <node x="832.0" y="505.0">Conn</node>
+            <node x="217.0" y="0.0">Document</node>
+            <node x="0.0" y="913.0">Main</node>
+            <node x="0.0" y="661.0">OrdinaryUser</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Librarian" target="Administrator">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="91.5" />
+            </edge>
+            <edge source="Article" target="Document">
+              <point x="0.0" y="-102.5" />
+              <point x="98.5" y="230.0" />
+              <point x="249.83333333333331" y="230.0" />
+              <point x="-65.66666666666669" y="102.5" />
+            </edge>
+            <edge source="OrdinaryUser" target="User">
+              <point x="0.0" y="-36.5" />
+              <point x="109.0" y="581.0" />
+              <point x="263.75" y="581.0" />
+              <point x="-47.0" y="25.5" />
+            </edge>
+            <edge source="Administrator" target="User">
+              <point x="0.0" y="-91.5" />
+              <point x="512.5" y="581.0" />
+              <point x="357.75" y="581.0" />
+              <point x="47.0" y="25.5" />
+            </edge>
+            <edge source="Faculty" target="OrdinaryUser">
+              <point x="0.0" y="-14.5" />
+              <point x="56.0" y="814.0" />
+              <point x="54.5" y="814.0" />
+              <point x="-54.5" y="36.5" />
+            </edge>
+            <edge source="Student" target="OrdinaryUser">
+              <point x="0.0" y="-14.5" />
+              <point x="162.0" y="814.0" />
+              <point x="163.5" y="814.0" />
+              <point x="54.5" y="36.5" />
+            </edge>
+            <edge source="AudioVideo" target="Document">
+              <point x="0.0" y="-102.5" />
+              <point x="0.0" y="102.5" />
+            </edge>
+            <edge source="Book" target="Document">
+              <point x="0.0" y="-102.5" />
+              <point x="532.5" y="230.0" />
+              <point x="381.1666666666667" y="230.0" />
+              <point x="65.66666666666669" y="102.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9" x="-43.44444444444446" y="528.6666666666667" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> parent of eb94a7d... Я хз
     <entry file="file://$PROJECT_DIR$/src/Administrator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="221">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#connect#0;class#Administrator#0" />
+            <element signature="method#addUser#0;class#Administrator#0" />
             <element signature="method#addDoc#0;class#Administrator#0" />
             <element signature="method#remove#0;class#Administrator#0" />
+            <element signature="method#findHeldDocs#0;class#Administrator#0" />
             <element signature="method#readUsers#0;class#Administrator#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/OrdinaryUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="17" column="79" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
+        <state relative-caret-position="204">
+          <caret line="86" column="1" lean-forward="true" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#bookDocument#0;class#OrdinaryUser#0" />
+            <element signature="method#returnDoc#0;class#OrdinaryUser#0" />
           </folding>
 >>>>>>> parent of 16a0c30... System of login
         </state>

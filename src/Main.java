@@ -56,10 +56,14 @@ public class Main
 
 =======
 
+<<<<<<< HEAD
 >>>>>>> parent of 16a0c30... System of login
 =======
 
 >>>>>>> parent of 16a0c30... System of login
+=======
+
+>>>>>>> parent of eb94a7d... Я хз
         System.out.println("Enter a command - you can always try typing 'help':");
         while (in.hasNextLine() && run)
         {
