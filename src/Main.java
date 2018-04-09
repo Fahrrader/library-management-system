@@ -13,6 +13,7 @@ public class Main
         boolean run = true;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         Patron user = new Faculty(-1);
         Administrator librarian = new Librarian(-1);
 
@@ -56,10 +57,14 @@ public class Main
 =======
 
 >>>>>>> parent of 16a0c30... System of login
+=======
+
+>>>>>>> parent of 16a0c30... System of login
         System.out.println("Enter a command - you can always try typing 'help':");
         while (in.hasNextLine() && run)
         {
             input = in.next();
+<<<<<<< HEAD
 <<<<<<< HEAD
             if (user.getId() != -1)
             {
@@ -93,6 +98,8 @@ public class Main
                         break;
                     default:
 =======
+=======
+>>>>>>> parent of 16a0c30... System of login
             switch (input) {
                 case "help":
                     System.out.println("### List of available commands:");
@@ -119,6 +126,9 @@ public class Main
                         input = in.next();
                         lib.readDocs(Integer.parseInt(input));
                     } else
+<<<<<<< HEAD
+>>>>>>> parent of 16a0c30... System of login
+=======
 >>>>>>> parent of 16a0c30... System of login
                         System.out.println("Unrecognised command.");
                     break;
@@ -129,6 +139,7 @@ public class Main
                 default:
                     System.out.println("Unrecognised command.");
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
             else
             {
@@ -399,6 +410,8 @@ public class Main
                 }
             }
 
+=======
+>>>>>>> parent of 16a0c30... System of login
 =======
 >>>>>>> parent of 16a0c30... System of login
         }
