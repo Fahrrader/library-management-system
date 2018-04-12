@@ -19,7 +19,7 @@ public class Main
             String[] newUser = {"0", "admin", "...", "...", "1234"};
             librarian.addUser(newUser);
             librarian = new Librarian(1);
-            Conn.addEntryToHistory(1, "A librarian entered the empty library.");
+            Conn.addEntryToHistory(1, "A librarian has entered the empty library.");
         }
 
         while (!logged)

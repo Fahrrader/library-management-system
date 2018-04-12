@@ -98,13 +98,14 @@ public class Conn {
         return !Conn.query.executeQuery("SELECT * FROM users").next();
     }
 
-    public static int requestLogIn (int id, String password) throws SQLException
+    public static int requestLogIn (int id, String password) throws NullPointerException, SQLException
     {
         Conn.resSet = Conn.query.executeQuery("SELECT type, password FROM users WHERE id = " + id);
         if (!Conn.resSet.next())
             return -1;
 
         String real_password = Conn.resSet.getString("password");
+        System.out.println(id + " " + password);
         if (password.equals(real_password))
             return Conn.resSet.getInt("type");
         return -1;

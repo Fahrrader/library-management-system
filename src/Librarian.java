@@ -30,7 +30,7 @@ public class Librarian implements Administrator
     public boolean addUser(String args[]) throws SQLException
     {
         Conn.query.executeUpdate("INSERT INTO users (type, name, address, phone, password) " +
-                "VALUES ('" + args[0] + "','" + args[1] + "','" + args[2] + "','" + args[2] + "','" + args[3] + "')");
+                "VALUES ('" + args[0] + "','" + args[1] + "','" + args[2] + "','" + args[3] + "','" + args[4] + "')");
         System.out.println("User added!");
         Conn.addEntryToHistory(id, "ID" + id + " successfully added a new user");
         return true;
